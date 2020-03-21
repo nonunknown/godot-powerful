@@ -1,5 +1,10 @@
 # Godot Powerful Tools & Essentials
-List of plugins to turn godot into a most powerful engine that already is. Alphatic order
+
+![Power](https://i.imgur.com/w7TtzGN.png)
+
+List of plugins that you need in almost any project you make to turn godot into a most powerful engine that already is. 
+
+Alphabetic order
 
 ## 
 * 
