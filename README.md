@@ -37,6 +37,11 @@ List of plugins to turn godot into a most powerful engine that already is. Alpha
     <img src="https://user-images.githubusercontent.com/1174413/61975708-68a63d80-afd9-11e9-8ab9-c6f1ec946cf2.png" alt="">
 </details>
 
+## GPU TileMap
+* This is a shader based tilemap alternative, tiles have the same width and height, maps are stored as image textures, for now the maps are saved in the scene
+* Author: @MightyPrinny
+* ![Download](https://github.com/MightyPrinny/godot-gputilemap)
+
 ## Inspector Gadget
 * Inspector gadget is a set of GDScript UI controls designed to read and write object properties at runtime. It extends the standard get_indexed() function from the Node class with support for arrays and dictionaries, allowing for fully-recursive property visualization and editing using NodePath subnames.
 * Author: @Shifty
