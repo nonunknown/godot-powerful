@@ -11,7 +11,7 @@ Alphabetic order
 * Author: @
 * ![Download]()
 * <details>
-    <summary>Screenshoot</summary>
+    <summary>Screenshot</summary>
     <img src="" alt="">
 </details>
 
@@ -20,7 +20,7 @@ Alphabetic order
 * Author: @SIsilicon
 * ![Download](https://github.com/SIsilicon/Godot-3D-text-plugin)
 * <details>
-    <summary>Screenshoot</summary>
+    <summary>Screenshot</summary>
     <img src="https://raw.githubusercontent.com/SIsilicon/Godot-3D-text-plugin/master/icon.png" alt="">
 </details>
 
@@ -29,7 +29,7 @@ Alphabetic order
 * Author: @nonunknown
 * ![Download](https://github.com/nonunknown/abstract-state-machine)
 * <details>
-    <summary>Screenshoot</summary>
+    <summary>Screenshot</summary>
     <img src="https://camo.githubusercontent.com/534c1e4f4051875090186c50df9754f5342119ac/68747470733a2f2f692e696d6775722e636f6d2f35506564555a6d2e706e67" alt="">
 </details>
 
@@ -38,7 +38,7 @@ Alphabetic order
 * Author: @IvanFon
 * ![Download](https://github.com/IvanFon/godot-command-palette)
 * <details>
-    <summary>Screenshoot</summary>
+    <summary>Screenshot</summary>
     <img src="https://user-images.githubusercontent.com/1174413/61975708-68a63d80-afd9-11e9-8ab9-c6f1ec946cf2.png" alt="">
 </details>
 
@@ -52,7 +52,7 @@ Alphabetic order
 * Author: @Shifty
 * ![Download](https://github.com/Shfty/inspector-gadget)
 * <details>
-    <summary>Screenshoot</summary>
+    <summary>Screenshot</summary>
     <img src="https://pbs.twimg.com/media/ETcxE5KWkAI2EHj?format=png&name=medium" alt="">
 </details>
 
@@ -61,7 +61,7 @@ Alphabetic order
 * Author: @nonunknown
 * ![Download](https://github.com/nonunknown/screen-debugger)
 * <details>
-    <summary>Screenshoot</summary>
+    <summary>Screenshot</summary>
     <img src="https://i.imgur.com/8Uu2bvf.png" alt="">
 </details>
 
@@ -76,7 +76,7 @@ It also gives you a better control over the Background Music. The sounds will no
 * Author: @fenix
 * ![Download](https://github.com/fenix-hub/godot-engine.text-editor)
 * <details>
-    <summary>Screenshoot</summary>
+    <summary>Screenshot</summary>
     <img src="https://camo.githubusercontent.com/dd8baad756102bf37275baf8e6f81c51d785b138/68747470733a2f2f692e696d6775722e636f6d2f617367676b34662e706e67" alt="">
 </details>
 
@@ -85,7 +85,7 @@ It also gives you a better control over the Background Music. The sounds will no
 * Author: @Xrayez
 * ![Download](https://github.com/Xrayez/godot-vector-resource)
 * <details>
-    <summary>Screenshoot</summary>
+    <summary>Screenshot</summary>
     <img src="https://github.com/Xrayez/godot-vector-resource/raw/master/images/vector-editing.gif" alt="">
 </details>
 
