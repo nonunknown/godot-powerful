@@ -1,0 +1,6 @@
+COLUMN 1| |COLUMN2|COLUMN3|COLUMN5
+this is a| |csv file with empty spaces| |-
+anyway,|they are stored in| |the file|-
+this|is a |new|line|-
+line 5|and column 5|where created|with the editor|-
+-|-|-|-|-

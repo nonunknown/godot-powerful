@@ -1,0 +1,85 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://addons/fabianlc_gpu_tilemap/scenes/tilepicker.gd" type="Script" id=2]
+[ext_resource path="res://addons/fabianlc_gpu_tilemap/scenes/tlepicker_selected_cell.gd" type="Script" id=3]
+
+[node name="TilePicker" type="VBoxContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_stretch_ratio = 0.25
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_right = 256.0
+margin_bottom = 14.0
+text = "Tileset"
+align = 1
+valign = 1
+
+[node name="HSeparator" type="HSeparator" parent="."]
+margin_top = 18.0
+margin_right = 256.0
+margin_bottom = 22.0
+
+[node name="Options" type="HBoxContainer" parent="."]
+margin_top = 26.0
+margin_right = 256.0
+margin_bottom = 50.0
+alignment = 1
+
+[node name="Label2" type="Label" parent="Options"]
+margin_left = 66.0
+margin_top = 5.0
+margin_right = 98.0
+margin_bottom = 19.0
+text = "h flip"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="FlipH" type="CheckBox" parent="Options"]
+margin_left = 102.0
+margin_right = 126.0
+margin_bottom = 24.0
+align = 1
+
+[node name="Label3" type="Label" parent="Options"]
+margin_left = 130.0
+margin_top = 5.0
+margin_right = 161.0
+margin_bottom = 19.0
+text = "v flip"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="FlipV" type="CheckBox" parent="Options"]
+margin_left = 165.0
+margin_right = 189.0
+margin_bottom = 24.0
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+margin_top = 54.0
+margin_right = 256.0
+margin_bottom = 240.0
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Tileset" type="Control" parent="ScrollContainer"]
+margin_right = 256.0
+margin_bottom = 186.0
+focus_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource( 3 )
+
+[node name="Sprite" type="Sprite" parent="ScrollContainer/Tileset"]
+show_behind_parent = true
+centered = false

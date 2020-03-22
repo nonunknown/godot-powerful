@@ -1,0 +1,186 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://addons/fabianlc_gpu_tilemap/scenes/alignment_grid.gd" type="Script" id=1]
+
+[sub_resource type="Theme" id=1]
+
+[sub_resource type="Theme" id=2]
+
+[node name="Control" type="ConfirmationDialog"]
+visible = true
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -128.0
+margin_top = -107.0
+margin_right = 128.0
+margin_bottom = 152.0
+rect_min_size = Vector2( 170, 59.5 )
+size_flags_horizontal = 11
+size_flags_vertical = 3
+popup_exclusive = true
+window_title = "Resize Map"
+dialog_text = "This cannot be undone.
+"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="V" type="VBoxContainer" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -120.0
+margin_top = -90.5
+margin_right = 120.0
+margin_bottom = 93.5
+size_flags_horizontal = 6
+size_flags_vertical = 6
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Alignment" type="Label" parent="V"]
+margin_right = 240.0
+margin_bottom = 14.0
+size_flags_vertical = 0
+text = "Alignment"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="GridContainer" type="GridContainer" parent="V"]
+margin_left = 81.0
+margin_top = 18.0
+margin_right = 158.0
+margin_bottom = 86.0
+size_flags_horizontal = 6
+theme = SubResource( 1 )
+columns = 3
+script = ExtResource( 1 )
+
+[node name="Button" type="Button" parent="V/GridContainer"]
+margin_right = 23.0
+margin_bottom = 20.0
+theme = SubResource( 2 )
+toggle_mode = true
+pressed = true
+text = "O"
+
+[node name="Button2" type="Button" parent="V/GridContainer"]
+margin_left = 27.0
+margin_right = 50.0
+margin_bottom = 20.0
+theme = SubResource( 2 )
+toggle_mode = true
+text = "O"
+
+[node name="Button3" type="Button" parent="V/GridContainer"]
+margin_left = 54.0
+margin_right = 77.0
+margin_bottom = 20.0
+theme = SubResource( 2 )
+toggle_mode = true
+text = "O"
+
+[node name="Button4" type="Button" parent="V/GridContainer"]
+margin_top = 24.0
+margin_right = 23.0
+margin_bottom = 44.0
+theme = SubResource( 2 )
+toggle_mode = true
+text = "O"
+
+[node name="Button5" type="Button" parent="V/GridContainer"]
+margin_left = 27.0
+margin_top = 24.0
+margin_right = 50.0
+margin_bottom = 44.0
+theme = SubResource( 2 )
+toggle_mode = true
+text = "O"
+
+[node name="Button6" type="Button" parent="V/GridContainer"]
+margin_left = 54.0
+margin_top = 24.0
+margin_right = 77.0
+margin_bottom = 44.0
+theme = SubResource( 2 )
+toggle_mode = true
+text = "O"
+
+[node name="Button7" type="Button" parent="V/GridContainer"]
+margin_top = 48.0
+margin_right = 23.0
+margin_bottom = 68.0
+theme = SubResource( 2 )
+toggle_mode = true
+text = "O"
+
+[node name="Button8" type="Button" parent="V/GridContainer"]
+margin_left = 27.0
+margin_top = 48.0
+margin_right = 50.0
+margin_bottom = 68.0
+theme = SubResource( 2 )
+toggle_mode = true
+text = "O"
+
+[node name="Button9" type="Button" parent="V/GridContainer"]
+margin_left = 54.0
+margin_top = 48.0
+margin_right = 77.0
+margin_bottom = 68.0
+theme = SubResource( 2 )
+toggle_mode = true
+text = "O"
+
+[node name="Label2" type="Label" parent="V"]
+margin_top = 90.0
+margin_right = 240.0
+margin_bottom = 104.0
+size_flags_vertical = 0
+text = "Map Size"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="H" type="HBoxContainer" parent="V"]
+margin_top = 108.0
+margin_right = 240.0
+margin_bottom = 132.0
+
+[node name="Label" type="Label" parent="V/H"]
+margin_top = 5.0
+margin_right = 38.0
+margin_bottom = 19.0
+text = "Width"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Width" type="SpinBox" parent="V/H"]
+margin_left = 42.0
+margin_right = 116.0
+margin_bottom = 24.0
+
+[node name="HT" type="Label" parent="V/H"]
+margin_left = 120.0
+margin_top = 5.0
+margin_right = 162.0
+margin_bottom = 19.0
+text = "Height"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Height" type="SpinBox" parent="V/H"]
+margin_left = 166.0
+margin_right = 240.0
+margin_bottom = 24.0

@@ -1,0 +1,9 @@
+[Opened]
+
+sample.bbs="res://addons/file-editor/file.samples/sample.bbs"
+sample.ini="res://addons/file-editor/file.samples/sample.ini"
+sample.cfg="res://addons/file-editor/file.samples/sample.cfg"
+sample.csv="res://addons/file-editor/file.samples/sample.csv"
+sample.txt="res://addons/file-editor/file.samples/sample.txt"
+sample.html="res://addons/file-editor/file.samples/sample.html"
+sample.md="res://addons/file-editor/file.samples/sample.md"

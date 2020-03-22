@@ -1,0 +1,121 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://addons/fabianlc_gpu_tilemap/scenes/import_tiled_map_dialog.gd" type="Script" id=1]
+
+[node name="Control" type="ConfirmationDialog"]
+visible = true
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -196.5
+margin_top = -122.0
+margin_right = 196.5
+margin_bottom = 122.0
+rect_min_size = Vector2( 170, 59.5 )
+popup_exclusive = true
+window_title = "Import tiled map"
+dialog_text = "This cannot be undone.
+
+*The map must store it's layers as csv
+*The map must be in json format
+*Tilesets won't be imported
+"
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="V" type="VBoxContainer" parent="."]
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = 8.0
+margin_top = -15.0
+margin_right = -8.0
+margin_bottom = 86.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2" type="Label" parent="V"]
+margin_right = 377.0
+margin_bottom = 14.0
+size_flags_vertical = 0
+text = "Import  settings"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="H" type="HBoxContainer" parent="V"]
+margin_top = 18.0
+margin_right = 377.0
+margin_bottom = 42.0
+alignment = 1
+
+[node name="PathLabel" type="Label" parent="V/H"]
+margin_top = 5.0
+margin_right = 28.0
+margin_bottom = 19.0
+text = "Path"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PathEdit" type="LineEdit" parent="V/H"]
+margin_left = 32.0
+margin_right = 334.0
+margin_bottom = 24.0
+size_flags_horizontal = 3
+caret_blink = true
+caret_blink_speed = 0.5
+
+[node name="LoadPath" type="Button" parent="V/H"]
+margin_left = 338.0
+margin_right = 377.0
+margin_bottom = 24.0
+text = "load"
+
+[node name="VSeparator" type="VSeparator" parent="V"]
+margin_top = 46.0
+margin_right = 377.0
+margin_bottom = 49.0
+
+[node name="H2" type="HBoxContainer" parent="V"]
+margin_top = 53.0
+margin_right = 377.0
+margin_bottom = 73.0
+alignment = 1
+
+[node name="Layer" type="Label" parent="V/H2"]
+margin_top = 3.0
+margin_right = 34.0
+margin_bottom = 17.0
+text = "Layer"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Layers" type="OptionButton" parent="V/H2"]
+margin_left = 38.0
+margin_right = 182.0
+margin_bottom = 20.0
+size_flags_horizontal = 3
+
+[node name="Layer2" type="Label" parent="V/H2"]
+margin_left = 186.0
+margin_top = 3.0
+margin_right = 229.0
+margin_bottom = 17.0
+text = "Tileset"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Tilesets" type="OptionButton" parent="V/H2"]
+margin_left = 233.0
+margin_right = 377.0
+margin_bottom = 20.0
+size_flags_horizontal = 3

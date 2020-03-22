@@ -1,0 +1,11 @@
+{
+  "class_name": "cname",
+  "functions": {
+    "init": "st_init_",
+    "update": "st_update_",
+    "exit": "st_exit_",
+    "transition": "transition_to_",
+	"test": "fine"
+	
+  }
+}

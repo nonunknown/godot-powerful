@@ -1,0 +1,50 @@
+{
+	"name": "sdroundedshape",
+	"node_position": {
+		"x": 0,
+		"y": 0
+	},
+	"parameters": {
+		"bevel": 0,
+		"cx": 0,
+		"cy": 0,
+		"h": 0.08,
+		"k": 0.15,
+		"op": 0,
+		"r": 0.15,
+		"w": 0.28
+	},
+	"shader_model": {
+		"code": "",
+		"global": "",
+		"inputs": [
+			{
+				"default": "0.0",
+				"label": "",
+				"name": "in",
+				"type": "sdf2d"
+			}
+		],
+		"instance": "",
+		"name": "sdRoundedShape",
+		"outputs": [
+			{
+				"sdf2d": "$in($uv)-$r",
+				"type": "sdf2d"
+			}
+		],
+		"parameters": [
+			{
+				"control": "Radius1.x",
+				"default": 0,
+				"label": "",
+				"max": 1,
+				"min": 0,
+				"name": "r",
+				"step": 0.01,
+				"type": "float"
+			}
+		]
+	},
+	"type": "shader"
+}

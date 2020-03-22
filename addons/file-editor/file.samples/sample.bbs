@@ -1,0 +1,23 @@
+[b]bolded text[/b]
+[i]italicized text[/i] 
+[u]underlined text[/u] 
+[s]strikethrough text[/s] 
+[url]https://en.wikipedia.org[/url]
+[url=https://en.wikipedia.org]English Wikipedia[/url] 
+[img]res://addons/file-editor/icon.png[/img]
+[code]monospaced text[/code]
+left [center]center[/center] [right]right[/right]
+
+[center][wave amp=50 freq=10]oooooondaaaaaaaaa[/wave][/center]
+
+[center][tornado amp=50 freq=10 radius=5]tornaaaaaadoooooo[/tornado][/center]
+
+[center][shake rate=15 level=10]scossa[/shake][/center]
+
+[center][fade start=4 length=14]Effetto fantasmaaaaaa[/fade][/center]
+
+[center][rainbow freq=4 sat=10 val=100]Arcobaleno![/rainbow][/center]
+
+[center][pulse freq=6.0 height=5.0][pulse color=#00FFAA freq=2.0]Questo è un codice custom![/pulse][/pulse][/center]
+
+*Some md text in bb file*

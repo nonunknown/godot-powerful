@@ -1,0 +1,77 @@
+[gd_scene format=2]
+
+[node name="Control" type="WindowDialog" index="0"]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 300.0
+margin_bottom = 200.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+popup_exclusive = false
+window_title = "About TODO"
+resizable = false
+_sections_unfolded = [ "Dialog", "Popup", "Rect" ]
+
+[node name="MarginContainer" type="MarginContainer" parent="." index="1"]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 4.0
+margin_top = 4.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+_sections_unfolded = [ "Margin" ]
+
+[node name="RichTextLabel" type="RichTextLabel" parent="MarginContainer" index="0"]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_right = 296.0
+margin_bottom = 196.0
+rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = true
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+bbcode_enabled = true
+bbcode_text = "[center]TODO is written by [url=http://www.misc.work/]Jahn Johansen[/url].
+The repository can be found on [url=http://www.github.com/need12648430/godot3-todo]Github[/url].
+It is distributed under the MIT license.
+
+If you find it useful and want to help support the author ('s coffee dependency), you can do so below.
+
+I'd appreciate it very much. <3
+
+[url=https://www.ko-fi.com/jjohansen][img]res://addons/todo/kofi.png[/img][/url][/center]"
+visible_characters = -1
+percent_visible = 1.0
+meta_underlined = true
+tab_size = 4
+text = "TODO is written by Jahn Johansen.
+The repository can be found on Github.
+It is distributed under the MIT license.
+
+If you find it useful and want to help support the author ('s coffee dependency), you can do so below.
+
+I'd appreciate it very much. <3
+
+"
+scroll_active = true
+scroll_following = false
+selection_enabled = false
+override_selected_font_color = false
+_sections_unfolded = [ "Bb Code", "Rect", "Script" ]
+

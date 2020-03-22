@@ -1,0 +1,10 @@
+[remap]
+
+importer="csv"
+type="TextFile"
+
+[deps]
+
+source_file="res://addons/file-editor/file.samples/sample.csv"
+[params]
+

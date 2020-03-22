@@ -1,0 +1,68 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://addons/vector_resource/editor/vector_plane_buttons_group.tres" type="ButtonGroup" id=1]
+[ext_resource path="res://addons/vector_resource/editor/vector_editor.gd" type="Script" id=2]
+[ext_resource path="res://addons/vector_resource/editor/vector_plane_editor.gd" type="Script" id=3]
+
+[node name="vector_editor" type="CenterContainer"]
+margin_right = 320.0
+margin_bottom = 280.0
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="body" type="VBoxContainer" parent="."]
+margin_left = 32.0
+margin_right = 288.0
+margin_bottom = 280.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="plane_buttons" type="HBoxContainer" parent="body"]
+margin_right = 256.0
+margin_bottom = 20.0
+size_flags_horizontal = 3
+
+[node name="xy" type="Button" parent="body/plane_buttons"]
+margin_right = 82.0
+margin_bottom = 20.0
+size_flags_horizontal = 3
+toggle_mode = true
+pressed = true
+group = ExtResource( 1 )
+text = "Front"
+
+[node name="xz" type="Button" parent="body/plane_buttons"]
+margin_left = 86.0
+margin_right = 168.0
+margin_bottom = 20.0
+size_flags_horizontal = 3
+toggle_mode = true
+group = ExtResource( 1 )
+text = "Top"
+
+[node name="yz" type="Button" parent="body/plane_buttons"]
+margin_left = 172.0
+margin_right = 256.0
+margin_bottom = 20.0
+size_flags_horizontal = 3
+toggle_mode = true
+group = ExtResource( 1 )
+text = "Side"
+
+[node name="plane_editor" type="Control" parent="body"]
+margin_top = 24.0
+margin_right = 256.0
+margin_bottom = 280.0
+rect_min_size = Vector2( 256, 256 )
+rect_clip_content = true
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource( 3 )
+[connection signal="pressed" from="body/plane_buttons/xy" to="." method="_on_xy_pressed"]
+[connection signal="pressed" from="body/plane_buttons/xz" to="." method="_on_xz_pressed"]
+[connection signal="pressed" from="body/plane_buttons/yz" to="." method="_on_yz_pressed"]

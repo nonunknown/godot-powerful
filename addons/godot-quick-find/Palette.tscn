@@ -1,0 +1,22 @@
+[gd_scene format=2]
+
+[node name="Finder" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="WindowDialog" type="WindowDialog" parent="."]
+visible = true
+margin_top = 19.0
+margin_right = 350.0
+margin_bottom = 219.0
+window_title = "Quick Find"
+
+[node name="List" type="ItemList" parent="WindowDialog"]
+margin_right = 350.0
+margin_bottom = 176.0
+
+[node name="Search" type="LineEdit" parent="WindowDialog"]
+margin_top = 176.0
+margin_right = 350.0
+margin_bottom = 200.0
+placeholder_text = "Search..."
