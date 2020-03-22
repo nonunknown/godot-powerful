@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://addons/sound_manager/module/internal_scripts/SoundManager.gd" type="Script" id=1]
+[ext_resource path="res://addons/sound_manager/module/internal_scripts/Sounds.gd" type="Script" id=2]
+
+[node name="SoundManager" type="Node"]
+pause_mode = 2
+script = ExtResource( 1 )
+preload_resources = true
+
+[node name="BGM" type="AudioStreamPlayer" parent="."]
+
+[node name="BackgroundSounds" type="Node" parent="."]
+
+[node name="BGS0" type="AudioStreamPlayer" parent="BackgroundSounds"]
+script = ExtResource( 2 )
+
+[node name="MusicEffects" type="Node" parent="."]
+
+[node name="ME0" type="AudioStreamPlayer" parent="MusicEffects"]
+script = ExtResource( 2 )
+
+[node name="SoundEffects" type="Node" parent="."]
+
+[node name="SE0" type="AudioStreamPlayer" parent="SoundEffects"]
+script = ExtResource( 2 )

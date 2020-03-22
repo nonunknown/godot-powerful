@@ -1,0 +1,462 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://addons/sound_manager/dock/SoundManagerDock.gd" type="Script" id=1]
+[ext_resource path="res://addons/sound_manager/dock/assets/folder_icon.svg" type="Texture" id=2]
+
+[node name="SoundManager" type="ScrollContainer"]
+anchor_bottom = 1.0
+margin_right = 348.0
+scroll_horizontal_enabled = false
+script = ExtResource( 1 )
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+margin_right = 338.0
+margin_bottom = 582.0
+rect_min_size = Vector2( 316, 140 )
+
+[node name="BGMPathPanel" type="HBoxContainer" parent="VBoxContainer"]
+editor/display_folded = true
+margin_right = 338.0
+margin_bottom = 24.0
+hint_tooltip = "Path where all background music files are located"
+alignment = 1
+
+[node name="Label" type="Label" parent="VBoxContainer/BGMPathPanel"]
+margin_left = 11.0
+margin_top = 5.0
+margin_right = 111.0
+margin_bottom = 19.0
+rect_min_size = Vector2( 100, 14 )
+text = "BGM DIR PATH"
+
+[node name="PathField" type="LineEdit" parent="VBoxContainer/BGMPathPanel"]
+margin_left = 115.0
+margin_right = 295.0
+margin_bottom = 24.0
+rect_min_size = Vector2( 180, 0 )
+hint_tooltip = "Insert the path where the background music files are located"
+max_length = 280
+placeholder_text = "res://assets/sounds/BGM"
+
+[node name="FindPathButton" type="ToolButton" parent="VBoxContainer/BGMPathPanel"]
+margin_left = 299.0
+margin_right = 327.0
+margin_bottom = 24.0
+hint_tooltip = "Find the path where the background music files are located"
+icon = ExtResource( 2 )
+flat = false
+align = 0
+
+[node name="BGSPathPanel" type="HBoxContainer" parent="VBoxContainer"]
+editor/display_folded = true
+margin_top = 28.0
+margin_right = 338.0
+margin_bottom = 52.0
+hint_tooltip = "Path where all background sound  files are located"
+alignment = 1
+
+[node name="Label" type="Label" parent="VBoxContainer/BGSPathPanel"]
+margin_left = 11.0
+margin_top = 5.0
+margin_right = 111.0
+margin_bottom = 19.0
+rect_min_size = Vector2( 100, 14 )
+text = "BGS DIR PATH"
+
+[node name="PathField" type="LineEdit" parent="VBoxContainer/BGSPathPanel"]
+margin_left = 115.0
+margin_right = 295.0
+margin_bottom = 24.0
+rect_min_size = Vector2( 180, 0 )
+hint_tooltip = "Insert the path where the background sound files are located"
+max_length = 280
+placeholder_text = "res://assets/sounds/BGS"
+
+[node name="FindPathButton" type="ToolButton" parent="VBoxContainer/BGSPathPanel"]
+margin_left = 299.0
+margin_right = 327.0
+margin_bottom = 24.0
+hint_tooltip = "Find the path where the background sound files are located"
+icon = ExtResource( 2 )
+flat = false
+align = 0
+
+[node name="SFXPathPanel" type="HBoxContainer" parent="VBoxContainer"]
+editor/display_folded = true
+margin_top = 56.0
+margin_right = 338.0
+margin_bottom = 80.0
+hint_tooltip = "Path where all sound effects files are located"
+alignment = 1
+
+[node name="Label" type="Label" parent="VBoxContainer/SFXPathPanel"]
+margin_left = 11.0
+margin_top = 5.0
+margin_right = 111.0
+margin_bottom = 19.0
+rect_min_size = Vector2( 100, 14 )
+text = "SFX DIR PATH"
+
+[node name="PathField" type="LineEdit" parent="VBoxContainer/SFXPathPanel"]
+margin_left = 115.0
+margin_right = 295.0
+margin_bottom = 24.0
+rect_min_size = Vector2( 180, 0 )
+hint_tooltip = "Insert the path where the sound effects files are located"
+max_length = 280
+placeholder_text = "res://assets/sounds/SFX"
+
+[node name="FindPathButton" type="ToolButton" parent="VBoxContainer/SFXPathPanel"]
+margin_left = 299.0
+margin_right = 327.0
+margin_bottom = 24.0
+hint_tooltip = "Find the path where the sound effects files are located"
+icon = ExtResource( 2 )
+flat = false
+align = 0
+
+[node name="MFXPathPanel" type="HBoxContainer" parent="VBoxContainer"]
+margin_top = 84.0
+margin_right = 338.0
+margin_bottom = 108.0
+hint_tooltip = "Path where all music effects files are located"
+alignment = 1
+
+[node name="Label" type="Label" parent="VBoxContainer/MFXPathPanel"]
+margin_left = 11.0
+margin_top = 5.0
+margin_right = 111.0
+margin_bottom = 19.0
+rect_min_size = Vector2( 100, 14 )
+text = "MFX DIR PATH"
+
+[node name="PathField" type="LineEdit" parent="VBoxContainer/MFXPathPanel"]
+margin_left = 115.0
+margin_right = 295.0
+margin_bottom = 24.0
+rect_min_size = Vector2( 180, 0 )
+hint_tooltip = "Insert the path where the music effects files are located"
+max_length = 280
+placeholder_text = "res://assets/sounds/MFX"
+
+[node name="FindPathButton" type="ToolButton" parent="VBoxContainer/MFXPathPanel"]
+margin_left = 299.0
+margin_right = 327.0
+margin_bottom = 24.0
+hint_tooltip = "Find the path where the music effects files are located"
+icon = ExtResource( 2 )
+flat = false
+align = 0
+
+[node name="BGMBusPanel" type="HBoxContainer" parent="VBoxContainer"]
+margin_top = 112.0
+margin_right = 338.0
+margin_bottom = 136.0
+hint_tooltip = "Audio bus for background musics"
+alignment = 1
+
+[node name="Label" type="Label" parent="VBoxContainer/BGMBusPanel"]
+margin_left = 27.0
+margin_top = 5.0
+margin_right = 127.0
+margin_bottom = 19.0
+rect_min_size = Vector2( 100, 14 )
+text = "BGM BUS"
+
+[node name="NameField" type="LineEdit" parent="VBoxContainer/BGMBusPanel"]
+margin_left = 131.0
+margin_right = 311.0
+margin_bottom = 24.0
+rect_min_size = Vector2( 180, 0 )
+text = "Master"
+max_length = 280
+placeholder_text = "Bus Name"
+
+[node name="BGSBusPanel" type="HBoxContainer" parent="VBoxContainer"]
+editor/display_folded = true
+margin_top = 140.0
+margin_right = 338.0
+margin_bottom = 164.0
+hint_tooltip = "Audio bus for background sounds"
+alignment = 1
+
+[node name="Label" type="Label" parent="VBoxContainer/BGSBusPanel"]
+margin_left = 27.0
+margin_top = 5.0
+margin_right = 127.0
+margin_bottom = 19.0
+rect_min_size = Vector2( 100, 14 )
+text = "BGS BUS"
+
+[node name="NameField" type="LineEdit" parent="VBoxContainer/BGSBusPanel"]
+margin_left = 131.0
+margin_right = 311.0
+margin_bottom = 24.0
+rect_min_size = Vector2( 180, 0 )
+hint_tooltip = "Set the audio bus for background sounds"
+max_length = 280
+placeholder_text = "Bus Name"
+
+[node name="SFXBusPanel" type="HBoxContainer" parent="VBoxContainer"]
+editor/display_folded = true
+margin_top = 168.0
+margin_right = 338.0
+margin_bottom = 192.0
+hint_tooltip = "Audio bus for sound effects"
+alignment = 1
+
+[node name="Label" type="Label" parent="VBoxContainer/SFXBusPanel"]
+margin_left = 27.0
+margin_top = 5.0
+margin_right = 127.0
+margin_bottom = 19.0
+rect_min_size = Vector2( 100, 14 )
+text = "SFX BUS"
+
+[node name="NameField" type="LineEdit" parent="VBoxContainer/SFXBusPanel"]
+margin_left = 131.0
+margin_right = 311.0
+margin_bottom = 24.0
+rect_min_size = Vector2( 180, 0 )
+hint_tooltip = "Set the audio bus for sound effects"
+max_length = 280
+placeholder_text = "Bus Name"
+
+[node name="MFXBusPanel" type="HBoxContainer" parent="VBoxContainer"]
+editor/display_folded = true
+margin_top = 196.0
+margin_right = 338.0
+margin_bottom = 220.0
+hint_tooltip = "Audio bus for music effects"
+alignment = 1
+
+[node name="Label" type="Label" parent="VBoxContainer/MFXBusPanel"]
+margin_left = 27.0
+margin_top = 5.0
+margin_right = 127.0
+margin_bottom = 19.0
+rect_min_size = Vector2( 100, 14 )
+text = "MFX BUS"
+
+[node name="NameField" type="LineEdit" parent="VBoxContainer/MFXBusPanel"]
+margin_left = 131.0
+margin_right = 311.0
+margin_bottom = 24.0
+rect_min_size = Vector2( 180, 0 )
+hint_tooltip = "Set the audio bus for music effects"
+max_length = 280
+placeholder_text = "Bus Name"
+
+[node name="HSeparator2" type="HSeparator" parent="VBoxContainer"]
+margin_top = 224.0
+margin_right = 338.0
+margin_bottom = 228.0
+
+[node name="TypeContainer" type="HBoxContainer" parent="VBoxContainer"]
+editor/display_folded = true
+margin_top = 232.0
+margin_right = 338.0
+margin_bottom = 254.0
+hint_tooltip = "Click on any type of sound to see the available sound files"
+alignment = 1
+
+[node name="BGM" type="ToolButton" parent="VBoxContainer/TypeContainer"]
+margin_left = 74.0
+margin_right = 117.0
+margin_bottom = 22.0
+hint_tooltip = "Click here to see the avaliable background musics"
+text = "BGM"
+
+[node name="VSeparator" type="VSeparator" parent="VBoxContainer/TypeContainer"]
+margin_left = 121.0
+margin_right = 125.0
+margin_bottom = 22.0
+
+[node name="BGS" type="ToolButton" parent="VBoxContainer/TypeContainer"]
+margin_left = 129.0
+margin_right = 167.0
+margin_bottom = 22.0
+hint_tooltip = "Click here to see the avaliable background sounds"
+text = "BGS"
+
+[node name="VSeparator2" type="VSeparator" parent="VBoxContainer/TypeContainer"]
+margin_left = 171.0
+margin_right = 175.0
+margin_bottom = 22.0
+
+[node name="SFX" type="ToolButton" parent="VBoxContainer/TypeContainer"]
+margin_left = 179.0
+margin_right = 213.0
+margin_bottom = 22.0
+hint_tooltip = "Click here to see the avaliable sound effects files"
+text = "SFX"
+
+[node name="VSeparator3" type="VSeparator" parent="VBoxContainer/TypeContainer"]
+margin_left = 217.0
+margin_right = 221.0
+margin_bottom = 22.0
+
+[node name="MFX" type="ToolButton" parent="VBoxContainer/TypeContainer"]
+margin_left = 225.0
+margin_right = 264.0
+margin_bottom = 22.0
+hint_tooltip = "Click here to see the avaliable music effects files"
+text = "MFX"
+
+[node name="TabContainer" type="TabContainer" parent="VBoxContainer"]
+editor/display_folded = true
+margin_top = 258.0
+margin_right = 338.0
+margin_bottom = 344.0
+tabs_visible = false
+
+[node name="BGMScrollContainer" type="ScrollContainer" parent="VBoxContainer/TabContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 4.0
+margin_top = 8.0
+margin_right = -4.0
+margin_bottom = -4.0
+rect_min_size = Vector2( 320, 50 )
+scroll_horizontal_enabled = false
+
+[node name="BGMFiles" type="VBoxContainer" parent="VBoxContainer/TabContainer/BGMScrollContainer"]
+margin_right = 320.0
+margin_bottom = 50.0
+rect_min_size = Vector2( 320, 50 )
+
+[node name="BGSScrollContainer" type="ScrollContainer" parent="VBoxContainer/TabContainer"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 4.0
+margin_top = 8.0
+margin_right = -4.0
+margin_bottom = -4.0
+rect_min_size = Vector2( 320, 50 )
+scroll_horizontal_enabled = false
+
+[node name="BGSFiles" type="VBoxContainer" parent="VBoxContainer/TabContainer/BGSScrollContainer"]
+margin_right = 320.0
+margin_bottom = 50.0
+rect_min_size = Vector2( 320, 50 )
+
+[node name="SFXScrollContainer" type="ScrollContainer" parent="VBoxContainer/TabContainer"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 4.0
+margin_top = 8.0
+margin_right = -4.0
+margin_bottom = -4.0
+rect_min_size = Vector2( 320, 50 )
+scroll_horizontal_enabled = false
+
+[node name="SFXFiles" type="VBoxContainer" parent="VBoxContainer/TabContainer/SFXScrollContainer"]
+margin_right = 320.0
+margin_bottom = 50.0
+rect_min_size = Vector2( 320, 50 )
+
+[node name="MFXScrollContainer" type="ScrollContainer" parent="VBoxContainer/TabContainer"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 4.0
+margin_top = 8.0
+margin_right = -4.0
+margin_bottom = -4.0
+rect_min_size = Vector2( 320, 50 )
+scroll_horizontal_enabled = false
+
+[node name="MFXFiles" type="VBoxContainer" parent="VBoxContainer/TabContainer/MFXScrollContainer"]
+margin_right = 320.0
+margin_bottom = 50.0
+rect_min_size = Vector2( 320, 50 )
+
+[node name="HSeparator" type="HSeparator" parent="VBoxContainer"]
+margin_top = 348.0
+margin_right = 338.0
+margin_bottom = 352.0
+
+[node name="DictionaryLabel" type="Label" parent="VBoxContainer"]
+margin_top = 356.0
+margin_right = 338.0
+margin_bottom = 370.0
+hint_tooltip = "Audio Files Dictionary Configuration"
+text = "Audio Files Dictionary"
+align = 1
+
+[node name="DictionaryContainer" type="ScrollContainer" parent="VBoxContainer"]
+margin_top = 374.0
+margin_right = 338.0
+margin_bottom = 494.0
+rect_min_size = Vector2( 320, 120 )
+scroll_horizontal_enabled = false
+
+[node name="DictionaryPanel" type="VBoxContainer" parent="VBoxContainer/DictionaryContainer"]
+margin_right = 320.0
+margin_bottom = 50.0
+rect_min_size = Vector2( 320, 50 )
+custom_constants/separation = 1
+
+[node name="AddEntryButton" type="Button" parent="VBoxContainer"]
+margin_top = 498.0
+margin_right = 338.0
+margin_bottom = 518.0
+hint_tooltip = "Add a new empty entry in the dictionary"
+focus_mode = 0
+enabled_focus_mode = 0
+text = "Add new entry"
+
+[node name="HSeparator3" type="HSeparator" parent="VBoxContainer"]
+margin_top = 522.0
+margin_right = 338.0
+margin_bottom = 526.0
+
+[node name="AdvancedOptions" type="GridContainer" parent="VBoxContainer"]
+margin_top = 530.0
+margin_right = 338.0
+margin_bottom = 582.0
+custom_constants/hseparation = 180
+columns = 2
+
+[node name="AdvancedLabel" type="Label" parent="VBoxContainer/AdvancedOptions"]
+margin_top = 5.0
+margin_right = 134.0
+margin_bottom = 19.0
+text = "Advanced Options"
+
+[node name="AdvancedButton" type="CheckBox" parent="VBoxContainer/AdvancedOptions"]
+margin_left = 314.0
+margin_right = 338.0
+margin_bottom = 24.0
+custom_constants/hseparation = 0
+
+[node name="PreloadLabel" type="Label" parent="VBoxContainer/AdvancedOptions"]
+visible = false
+margin_top = 28.0
+margin_right = 117.0
+margin_bottom = 42.0
+text = "Preload resources"
+
+[node name="PreloadButton" type="CheckBox" parent="VBoxContainer/AdvancedOptions"]
+visible = false
+margin_left = 297.0
+margin_top = 28.0
+margin_right = 321.0
+margin_bottom = 52.0
+custom_constants/hseparation = 0
+
+[node name="PreinstantiateLabel" type="Label" parent="VBoxContainer/AdvancedOptions"]
+visible = false
+margin_top = 33.0
+margin_right = 134.0
+margin_bottom = 47.0
+text = "Preinstantiate Nodes"
+
+[node name="PreinstantiateButton" type="CheckBox" parent="VBoxContainer/AdvancedOptions"]
+visible = false
+margin_left = 314.0
+margin_top = 28.0
+margin_right = 338.0
+margin_bottom = 52.0
