@@ -69,7 +69,7 @@ Alphabetic order
 * The Sound Manager gives the users a better control over the audio of their games. Using this plugin, it is possible to play every sound of the game using just simple method calls. No more long AudioStreamPlayer lists inside your scenes nor long methods to handle the audio inside every script.
 It also gives you a better control over the Background Music. The sounds will not stop between scenes anymore, giving you the power to stop it and play it whenever and however you want.
 * Author: @Xecestel
-* ![Test](https://gitlab.com/Xecestel/sound-manager)
+* https://gitlab.com/Xecestel/sound-manager
 
 ## Text Editor
 * A little plugin to easy-way manage your text files inside your project folder.
