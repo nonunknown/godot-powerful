@@ -1,10 +1,10 @@
-This s# Godot Powerful Tools & Essentials
+# Godot Powerful Tools & Essentials
 
 ![Power](https://i.imgur.com/w7TtzGN.png)
 
 List of plugins that you need in almost any project you make to turn godot into a most powerful engine that already is. 
 
-### Update
+## Download All-in-one
 Now you can download this repo and extract it at your godot's project folder, some assets are not
 plugins, they can be found inside mods/ folder, this is related to SpriteTextScript and EasyBlend
 
