@@ -5,6 +5,9 @@
 List of plugins that you need in almost any project you make to turn godot into a most powerful engine that already is. 
 
 ## Updates
+* 1.2 - Added
+    - KiriSplat
+    - Some titles will have WIP (Work in progress) which means it can leak features or performance issues
 * 1.1 - Link Correction
     - Updated ASM download link
 
@@ -21,7 +24,7 @@ plugins, they can be found inside mods/ folder, this is related to SpriteTextScr
     <img src="https://raw.githubusercontent.com/SIsilicon/Godot-3D-text-plugin/master/icon.png" alt="">
 </details>
 
-## Abstract State Machine (ASM)
+## Abstract State Machine (ASM) / WIP
 * ASM is a GraphNode Based State machine tool for Godot 3, It generates a ready-to-go state machine for your game:
 * Author: @nonunknown
 * ![Download](https://github.com/godot-extended-libraries/abstract-state-machine/)
@@ -66,6 +69,15 @@ plugins, they can be found inside mods/ folder, this is related to SpriteTextScr
 * <details>
     <summary>Screenshot</summary>
     <img src="https://pbs.twimg.com/media/ETcxE5KWkAI2EHj?format=png&name=medium" alt="">
+</details>
+
+## KiriSplat / WIP
+* KiriSplat is a decals system for Godot
+* Author: @ExpiredPopsicle
+* ![Download](https://github.com/ExpiredPopsicle/KiriSplat)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://pbs.twimg.com/media/ETFS4NiVAAUuvcs?format=jpg&name=large" alt="">
 </details>
 
 ## Material Maker
