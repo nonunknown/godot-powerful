@@ -7,7 +7,7 @@ List of plugins that you need in almost any project you make to turn godot into 
 ## Updates
 * 1.2 - Added
     - KiriSplat
-    - Some titles will have WIP (Work in progress) which means it can leak features or performance issues
+    - Some titles will have WIP (Work in progress) which means it can leak features.
 * 1.1 - Link Correction
     - Updated ASM download link
 
