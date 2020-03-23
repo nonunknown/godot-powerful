@@ -4,6 +4,10 @@
 
 List of plugins that you need in almost any project you make to turn godot into a most powerful engine that already is. 
 
+## Updates
+* 1.1 - Link Correction
+    - Updated ASM download link
+
 ## Download All-in-one
 Now you can download this repo and extract it at your godot's project folder, some assets are not
 plugins, they can be found inside mods/ folder, this is related to SpriteTextScript and EasyBlend
@@ -20,7 +24,7 @@ plugins, they can be found inside mods/ folder, this is related to SpriteTextScr
 ## Abstract State Machine (ASM)
 * ASM is a GraphNode Based State machine tool for Godot 3, It generates a ready-to-go state machine for your game:
 * Author: @nonunknown
-* ![Download](https://github.com/nonunknown/abstract-state-machine)
+* ![Download](https://github.com/godot-extended-libraries/abstract-state-machine/)
 * <details>
     <summary>Screenshot</summary>
     <img src="https://camo.githubusercontent.com/534c1e4f4051875090186c50df9754f5342119ac/68747470733a2f2f692e696d6775722e636f6d2f35506564555a6d2e706e67" alt="">
