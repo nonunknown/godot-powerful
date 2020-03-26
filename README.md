@@ -1,10 +1,19 @@
-# Godot Powerful Tools & Essentials
+##Code Snippet Plugin
+* This plugin for Godot 3.2.X adds a popup which lists all available code snippets. The popup is shown with Control+Tab.
+* Author: @Leleat
+* ![Download](https://github.com/Leleat/AGodotCodeSnippetPlugin)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://raw.githubusercontent.com/Leleat/AGodotCodeSnippetPlugin/master/preview.png" alt="">
+</details># Godot Powerful Tools & Essentials
 
 ![Power](https://i.imgur.com/w7TtzGN.png)
 
 List of plugins that you need in almost any project you make to turn godot into a most powerful engine that already is. 
 
 ## Updates
+* 1.3 - Added
+    - Code Snippet
 * 1.2 - Added
     - KiriSplat
     - Some titles will have WIP (Work in progress) which means it can leak features.
@@ -16,7 +25,21 @@ Now you can download this repo and extract it at your godot's project folder, so
 plugins, they can be found inside mods/ folder, this is related to SpriteTextScript and EasyBlend
 
 ## 3D Text (Label3D)
-* Hello! This is an addon built for Godot 3.1.x that adds 3D labels to your arsenal of nodes. It's just like a regular label, but in 3D! The addon simply adds a new node called Label3D that you can add anywhere in your 3D environment. It comes with the following parameters.
+* Hello! This is an addon built for Godot 3.1.x that adds 3D labels to your arsenal of nodes. It's just like a regular label, but in 3D! The addon simply adds a new no##Code Snippet Plugin
+* This plugin for Godot 3.2.X adds a popup which lists all available code snippets. The popup is shown with Control+Tab.
+* Author: @Leleat
+* ![Download](https://github.com/Leleat/AGodotCodeSnippetPlugin)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://raw.githubusercontent.com/Leleat/AGodotCodeSnippetPlugin/master/preview.png" alt="">
+</details>##Code Snippet Plugin
+* This plugin for Godot 3.2.X adds a popup which lists all available code snippets. The popup is shown with Control+Tab.
+* Author: @Leleat
+* ![Download](https://github.com/Leleat/AGodotCodeSnippetPlugin)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://raw.githubusercontent.com/Leleat/AGodotCodeSnippetPlugin/master/preview.png" alt="">
+</details>de called Label3D that you can add anywhere in your 3D environment. It comes with the following parameters.
 * Author: @SIsilicon
 * ![Download](https://github.com/SIsilicon/Godot-3D-text-plugin)
 * <details>
@@ -32,11 +55,27 @@ plugins, they can be found inside mods/ folder, this is related to SpriteTextScr
     <summary>Screenshot</summary>
     <img src="https://camo.githubusercontent.com/534c1e4f4051875090186c50df9754f5342119ac/68747470733a2f2f692e696d6775722e636f6d2f35506564555a6d2e706e67" alt="">
 </details>
-
+##Code Snippet Plugin
+* This plugin for Godot 3.2.X adds a popup which lists all available code snippets. The popup is shown with Control+Tab.
+* Author: @Leleat
+* ![Download](https://github.com/Leleat/AGodotCodeSnippetPlugin)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://raw.githubusercontent.com/Leleat/AGodotCodeSnippetPlugin/master/preview.png" alt="">
+</details>
 ## Advanced Background Loader
 * This script allows you to load entire levels and all required assets while playing cutscenes. 
 * Author: @MasterPolska123
 * ![Download](https://github.com/MasterPolska123/Advanced-Backgound-Loader)
+
+## Code Snippet Plugin
+* This plugin for Godot 3.2.X adds a popup which lists all available code snippets. The popup is shown with Control+Tab.
+* Author: @Leleat
+* ![Download](https://github.com/Leleat/AGodotCodeSnippetPlugin)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://raw.githubusercontent.com/Leleat/AGodotCodeSnippetPlugin/master/preview.png" alt="">
+</details>
 
 ## Command Pallete
 * A Godot addon inspired by CtrlP, making it faster and easier to open the resource you're looking for in the editor.
@@ -63,12 +102,26 @@ plugins, they can be found inside mods/ folder, this is related to SpriteTextScr
 * ![Download](https://github.com/MightyPrinny/godot-gputilemap)
 
 ## Inspector Gadget
-* Inspector gadget is a set of GDScript UI controls designed to read and write object properties at runtime. It extends the standard get_indexed() function from the Node c##SpriteText
+* Inspector gadget is a set of GDScript UI controls designed to read and write object properties at runtime. It extends the standard get_indexed##Code Snippet Plugin
+* This plugin for Godot 3.2.X adds a popup which lists all available code snippets. The popup is shown with Control+Tab.
+* Author: @Leleat
+* ![Download](https://github.com/Leleat/AGodotCodeSnippetPlugin)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://raw.githubusercontent.com/Leleat/AGodotCodeSnippetPlugin/master/preview.png" alt="">
+</details>() function from the Node c##SpriteText
 * Author: @Shifty
 * ![Download](https://github.com/Shfty/inspector-gadget)
 * <details>
     <summary>Screenshot</summary>
     <img src="https://pbs.twimg.com/media/ETcxE5KWkAI2EHj?format=png&name=medium" alt="">
+</details>##Code Snippet Plugin
+* This plugin for Godot 3.2.X adds a popup which lists all available code snippets. The popup is shown with Control+Tab.
+* Author: @Leleat
+* ![Download](https://github.com/Leleat/AGodotCodeSnippetPlugin)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://raw.githubusercontent.com/Leleat/AGodotCodeSnippetPlugin/master/preview.png" alt="">
 </details>
 
 ## KiriSplat / WIP
