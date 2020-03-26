@@ -1,11 +1,4 @@
-##Code Snippet Plugin
-* This plugin for Godot 3.2.X adds a popup which lists all available code snippets. The popup is shown with Control+Tab.
-* Author: @Leleat
-* ![Download](https://github.com/Leleat/AGodotCodeSnippetPlugin)
-* <details>
-    <summary>Screenshot</summary>
-    <img src="https://raw.githubusercontent.com/Leleat/AGodotCodeSnippetPlugin/master/preview.png" alt="">
-</details># Godot Powerful Tools & Essentials
+# Godot Powerful Tools & Essentials
 
 ![Power](https://i.imgur.com/w7TtzGN.png)
 
