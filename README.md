@@ -41,14 +41,7 @@ plugins, they can be found inside mods/ folder, this is related to SpriteTextScr
     <summary>Screenshot</summary>
     <img src="https://camo.githubusercontent.com/534c1e4f4051875090186c50df9754f5342119ac/68747470733a2f2f692e696d6775722e636f6d2f35506564555a6d2e706e67" alt="">
 </details>
-##Code Snippet Plugin
-* This plugin for Godot 3.2.X adds a popup which lists all available code snippets. The popup is shown with Control+Tab.
-* Author: @Leleat
-* ![Download](https://github.com/Leleat/AGodotCodeSnippetPlugin)
-* <details>
-    <summary>Screenshot</summary>
-    <img src="https://raw.githubusercontent.com/Leleat/AGodotCodeSnippetPlugin/master/preview.png" alt="">
-</details>
+
 ## Advanced Background Loader
 * This script allows you to load entire levels and all required assets while playing cutscenes. 
 * Author: @MasterPolska123
