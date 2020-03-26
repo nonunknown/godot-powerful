@@ -81,26 +81,12 @@ plugins, they can be found inside mods/ folder, this is related to SpriteTextScr
 * ![Download](https://github.com/MightyPrinny/godot-gputilemap)
 
 ## Inspector Gadget
-* Inspector gadget is a set of GDScript UI controls designed to read and write object properties at runtime. It extends the standard get_indexed##Code Snippet Plugin
-* This plugin for Godot 3.2.X adds a popup which lists all available code snippets. The popup is shown with Control+Tab.
-* Author: @Leleat
-* ![Download](https://github.com/Leleat/AGodotCodeSnippetPlugin)
-* <details>
-    <summary>Screenshot</summary>
-    <img src="https://raw.githubusercontent.com/Leleat/AGodotCodeSnippetPlugin/master/preview.png" alt="">
-</details>() function from the Node c##SpriteText
+* Inspector gadget is a set of GDScript UI controls designed to read and write object properties at runtime. It extends the standard get_indexed() function from the Node
 * Author: @Shifty
 * ![Download](https://github.com/Shfty/inspector-gadget)
 * <details>
     <summary>Screenshot</summary>
     <img src="https://pbs.twimg.com/media/ETcxE5KWkAI2EHj?format=png&name=medium" alt="">
-</details>##Code Snippet Plugin
-* This plugin for Godot 3.2.X adds a popup which lists all available code snippets. The popup is shown with Control+Tab.
-* Author: @Leleat
-* ![Download](https://github.com/Leleat/AGodotCodeSnippetPlugin)
-* <details>
-    <summary>Screenshot</summary>
-    <img src="https://raw.githubusercontent.com/Leleat/AGodotCodeSnippetPlugin/master/preview.png" alt="">
 </details>
 
 ## KiriSplat / WIP
