@@ -25,21 +25,7 @@ Now you can download this repo and extract it at your godot's project folder, so
 plugins, they can be found inside mods/ folder, this is related to SpriteTextScript and EasyBlend
 
 ## 3D Text (Label3D)
-* Hello! This is an addon built for Godot 3.1.x that adds 3D labels to your arsenal of nodes. It's just like a regular label, but in 3D! The addon simply adds a new no##Code Snippet Plugin
-* This plugin for Godot 3.2.X adds a popup which lists all available code snippets. The popup is shown with Control+Tab.
-* Author: @Leleat
-* ![Download](https://github.com/Leleat/AGodotCodeSnippetPlugin)
-* <details>
-    <summary>Screenshot</summary>
-    <img src="https://raw.githubusercontent.com/Leleat/AGodotCodeSnippetPlugin/master/preview.png" alt="">
-</details>##Code Snippet Plugin
-* This plugin for Godot 3.2.X adds a popup which lists all available code snippets. The popup is shown with Control+Tab.
-* Author: @Leleat
-* ![Download](https://github.com/Leleat/AGodotCodeSnippetPlugin)
-* <details>
-    <summary>Screenshot</summary>
-    <img src="https://raw.githubusercontent.com/Leleat/AGodotCodeSnippetPlugin/master/preview.png" alt="">
-</details>de called Label3D that you can add anywhere in your 3D environment. It comes with the following parameters.
+* Hello! This is an addon built for Godot 3.1.x that adds 3D labels to your arsenal of nodes. It's just like a regular label, but in 3D! The addon simply adds a new node called Label3D that you can add anywhere in your 3D environment.
 * Author: @SIsilicon
 * ![Download](https://github.com/SIsilicon/Godot-3D-text-plugin)
 * <details>
