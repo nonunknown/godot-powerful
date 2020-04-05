@@ -117,7 +117,7 @@ plugins, they can be found inside mods/ folder, this is related to SpriteTextScr
 * Author: @godot-extended-libraries
 * ![Download](https://github.com/godot-extended-libraries/godot-next)
 
-##Node Connector
+## Node Connector
 * Plugin for the Godot editor that provides a convenient way to connect a bunch of UI elements to a script.
 * Author: @Rybadour
 * ![Download](https://github.com/Rybadour/NodeConnectorGodot)
