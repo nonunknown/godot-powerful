@@ -5,6 +5,8 @@
 List of plugins that you need in almost any project you make to turn godot into a most powerful engine that already is. 
 
 ## Updates
+* 1.4 - Added
+	- Node Connector
 * 1.3 - Added
     - Code Snippet
 * 1.2 - Added
@@ -114,6 +116,15 @@ plugins, they can be found inside mods/ folder, this is related to SpriteTextScr
 * Godot Node Extensions, AKA Godot NExt, is a Godot 3.1+ repository dedicated to collecting basic script classes that are currently unavailable in vanilla Godot.
 * Author: @godot-extended-libraries
 * ![Download](https://github.com/godot-extended-libraries/godot-next)
+
+##Node Connector
+* Plugin for the Godot editor that provides a convenient way to connect a bunch of UI elements to a script.
+* Author: @Rybadour
+* ![Download](https://github.com/Rybadour/NodeConnectorGodot)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://raw.githubusercontent.com/Rybadour/NodeConnectorGodot/master/demo.gif" alt="">
+</details>
 
 ## Object Pool
 * Godot object pool. Used to instantiate a pool of objects using a user-defined pool size, PackedScene, and prefix. Some convenience methods exposed allowing a pool.get_next_dead() to fetch the next available object from the pool. 
