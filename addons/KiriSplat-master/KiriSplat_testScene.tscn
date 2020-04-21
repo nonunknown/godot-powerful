@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://addons/KiriSplat/KiriSplatInstance.gd" type="Script" id=1]
+
+[node name="Spatial" type="Spatial"]
+
+[node name="KiriSplatInstance" type="Spatial" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.492798, 0 )
+script = ExtResource( 1 )
+
+[node name="CSGCylinder" type="CSGCylinder" parent="." groups=[
+"splattable",
+]]

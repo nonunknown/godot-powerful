@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://addons/vpainter/res/icons/icon_vpainter.svg" type="Texture" id=1]
+[ext_resource path="res://addons/vpainter/vpainter_activate_button.gd" type="Script" id=2]
+
+
+[node name="ui_activate_button" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+button_path = NodePath("VPainter")
+
+[node name="VPainter" type="Button" parent="."]
+margin_right = 87.0
+margin_bottom = 26.0
+toggle_mode = true
+text = "Painter"
+icon = ExtResource( 1 )
+flat = true
+align = 0
+__meta__ = {
+"_edit_use_anchors_": false
+}

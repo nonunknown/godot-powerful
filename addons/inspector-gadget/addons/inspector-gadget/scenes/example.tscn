@@ -1,0 +1,85 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://addons/inspector-gadget/src/inspector_gadget.gd" type="Script" id=1]
+[ext_resource path="res://addons/inspector-gadget/src/property_visualizer.gd" type="Script" id=2]
+
+[node name="InspectorGadgetExample" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer" type="HBoxContainer" parent="ColorRect"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VisualizerScrollContainer" type="ScrollContainer" parent="ColorRect/HBoxContainer"]
+margin_right = 478.0
+margin_bottom = 960.0
+size_flags_horizontal = 3
+
+[node name="PropertyVisualizer" type="Control" parent="ColorRect/HBoxContainer/VisualizerScrollContainer"]
+margin_right = 466.0
+margin_bottom = 4290.0
+rect_min_size = Vector2( 0, 4290 )
+size_flags_horizontal = 3
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+float_value = 3.14159
+quat_value = Quat( -0.176777, -0.306186, -0.306186, 0.883883 )
+basis_value = Basis( 0.853553, 0.5, 0.146447, -0.146447, 0.5, -0.853553, -0.5, 0.707107, 0.5 )
+dictionary_value = {
+"bar": "bar string",
+"baz": "baz string",
+"foo": "foo string"
+}
+
+[node name="InspectorGadgetScrollContainer" type="ScrollContainer" parent="ColorRect/HBoxContainer"]
+margin_left = 482.0
+margin_right = 960.0
+margin_bottom = 960.0
+size_flags_horizontal = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="InspectorGadget" type="MarginContainer" parent="ColorRect/HBoxContainer/InspectorGadgetScrollContainer"]
+margin_right = 466.0
+margin_bottom = 4124.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+node_path = NodePath("../../VisualizerScrollContainer/PropertyVisualizer")
+subnames = ""
+editable = true
+property_blacklist = [ "blacklisted_property" ]
+custom_gadget_paths = {
+
+}
+custom_gadget_metadata = {
+
+}
+container_type_hints = {
+":array_value:4": 0,
+":array_value:5": "",
+":dictionary_value:[keys]": "",
+":dictionary_value:[values]": ""
+}
+filter_built_in_properties = true

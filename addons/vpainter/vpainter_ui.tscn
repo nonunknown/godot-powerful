@@ -1,0 +1,205 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://addons/vpainter/vpainter_ui.gd" type="Script" id=1]
+[ext_resource path="res://addons/vpainter/res/icons/icon_fill.svg" type="Texture" id=2]
+[ext_resource path="res://addons/vpainter/res/icons/icon_blur.svg" type="Texture" id=3]
+[ext_resource path="res://addons/vpainter/res/icons/icon_brush.svg" type="Texture" id=4]
+[ext_resource path="res://addons/vpainter/res/icons/icon_select.svg" type="Texture" id=5]
+[ext_resource path="res://addons/vpainter/res/icons/icon_duplicate.svg" type="Texture" id=10]
+
+[node name="ui" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+rect_min_size = Vector2( 192, 0 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+local_copy_button_path = NodePath("DuplicateButton")
+color_picker_dir = NodePath("MainArea/ColorSwatches/ColorPickerButton")
+background_picker_dir = NodePath("MainArea/ColorSwatches/ColorPickerButton2")
+button_paint_dir = NodePath("MainArea/Tools/BtnBrush")
+button_sample_dir = NodePath("MainArea/Tools/BtnSample")
+button_blur_dir = NodePath("MainArea/Tools/BtnBlur")
+button_fill_dir = NodePath("MainArea/Tools/BtnFill")
+brush_size_slider_dir = NodePath("MainArea/Sliders/Size")
+brush_opacity_slider_dir = NodePath("MainArea/Sliders/Opacity")
+brush_hardness_slider_dir = NodePath("MainArea/Sliders/Hardness")
+brush_spacing_slider_dir = NodePath("MainArea/Sliders/Spacing")
+blend_modes_path = NodePath("MainArea/BlendModes")
+
+[node name="MainArea" type="VBoxContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 16.0
+margin_right = -832.0
+rect_min_size = Vector2( 192, 0 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Tools" type="HBoxContainer" parent="MainArea"]
+margin_right = 192.0
+margin_bottom = 64.0
+rect_min_size = Vector2( 0, 64 )
+alignment = 1
+
+[node name="BtnBrush" type="ToolButton" parent="MainArea/Tools"]
+margin_left = 2.0
+margin_right = 46.0
+margin_bottom = 64.0
+hint_tooltip = "[1] Brush Tool.
+Paint vertex color by left clicking on the mesh."
+toggle_mode = true
+pressed = true
+icon = ExtResource( 4 )
+
+[node name="BtnSample" type="ToolButton" parent="MainArea/Tools"]
+margin_left = 50.0
+margin_right = 94.0
+margin_bottom = 64.0
+hint_tooltip = "[2] Sample Tool.
+Sample the vertex color under the mouse cursor when left clicked."
+toggle_mode = true
+icon = ExtResource( 5 )
+
+[node name="BtnBlur" type="ToolButton" parent="MainArea/Tools"]
+margin_left = 98.0
+margin_right = 142.0
+margin_bottom = 64.0
+disabled = true
+toggle_mode = true
+icon = ExtResource( 3 )
+
+[node name="BtnFill" type="ToolButton" parent="MainArea/Tools"]
+margin_left = 146.0
+margin_right = 190.0
+margin_bottom = 64.0
+hint_tooltip = "[4] Fill Tool.
+Fills the object with the currently selected color.
+Affected by blend modes and opacity."
+toggle_mode = true
+icon = ExtResource( 2 )
+
+[node name="ColorSwatches" type="HBoxContainer" parent="MainArea"]
+margin_top = 68.0
+margin_right = 192.0
+margin_bottom = 132.0
+rect_min_size = Vector2( 0, 64 )
+alignment = 1
+
+[node name="ColorPickerButton" type="ColorPickerButton" parent="MainArea/ColorSwatches"]
+margin_left = 46.0
+margin_top = 16.0
+margin_right = 94.0
+margin_bottom = 48.0
+rect_min_size = Vector2( 48, 32 )
+size_flags_vertical = 4
+flat = true
+
+[node name="ColorPickerButton2" type="ColorPickerButton" parent="MainArea/ColorSwatches"]
+margin_left = 98.0
+margin_top = 16.0
+margin_right = 146.0
+margin_bottom = 48.0
+rect_min_size = Vector2( 48, 32 )
+size_flags_vertical = 4
+flat = true
+color = Color( 1, 1, 1, 1 )
+
+[node name="BlendModes" type="OptionButton" parent="MainArea"]
+margin_left = 32.0
+margin_top = 136.0
+margin_right = 160.0
+margin_bottom = 156.0
+rect_min_size = Vector2( 128, 0 )
+hint_tooltip = "Blend mode for painting colors."
+size_flags_horizontal = 4
+text = "MIX"
+items = [ "MIX", null, false, 0, null, "ADD", null, false, 1, null, "SUBTRACT", null, false, 2, null, "MULTIPLY", null, false, 3, null, "DIVIDE", null, false, 4, null ]
+selected = 0
+
+[node name="Sliders" type="VBoxContainer" parent="MainArea"]
+margin_left = 32.0
+margin_top = 160.0
+margin_right = 160.0
+margin_bottom = 416.0
+rect_min_size = Vector2( 128, 256 )
+size_flags_horizontal = 4
+alignment = 1
+
+[node name="LSize" type="Label" parent="MainArea/Sliders"]
+margin_top = 54.0
+margin_right = 128.0
+margin_bottom = 68.0
+text = "size:"
+
+[node name="Size" type="HSlider" parent="MainArea/Sliders"]
+margin_top = 72.0
+margin_right = 128.0
+margin_bottom = 88.0
+size_flags_horizontal = 3
+min_value = 0.001
+max_value = 10.0
+step = 0.001
+value = 1.0
+
+[node name="LOpacity" type="Label" parent="MainArea/Sliders"]
+margin_top = 92.0
+margin_right = 128.0
+margin_bottom = 106.0
+text = "opacity:"
+
+[node name="Opacity" type="HSlider" parent="MainArea/Sliders"]
+margin_top = 110.0
+margin_right = 128.0
+margin_bottom = 126.0
+size_flags_horizontal = 3
+min_value = 0.001
+max_value = 1.0
+step = 0.001
+value = 0.5
+
+[node name="LHardness" type="Label" parent="MainArea/Sliders"]
+margin_top = 130.0
+margin_right = 128.0
+margin_bottom = 144.0
+text = "hardness:"
+
+[node name="Hardness" type="HSlider" parent="MainArea/Sliders"]
+margin_top = 148.0
+margin_right = 128.0
+margin_bottom = 164.0
+size_flags_horizontal = 3
+max_value = 1.0
+step = 0.001
+
+[node name="LSpacing" type="Label" parent="MainArea/Sliders"]
+margin_top = 168.0
+margin_right = 128.0
+margin_bottom = 182.0
+text = "spacing:"
+
+[node name="Spacing" type="HSlider" parent="MainArea/Sliders"]
+margin_top = 186.0
+margin_right = 128.0
+margin_bottom = 202.0
+size_flags_horizontal = 3
+min_value = 0.01
+max_value = 1.0
+step = 0.01
+value = 0.1
+
+[node name="DuplicateButton" type="ToolButton" parent="."]
+anchor_top = 1.0
+anchor_bottom = 1.0
+margin_left = 8.0
+margin_top = -48.0
+margin_right = 52.0
+margin_bottom = -8.0
+hint_tooltip = "Make local copy:
+Duplicates the original mesh and allows you to make changes without affecting the orginal mesh."
+icon = ExtResource( 10 )
+__meta__ = {
+"_edit_use_anchors_": false
+}

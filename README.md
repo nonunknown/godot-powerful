@@ -5,6 +5,11 @@
 List of plugins that you need in almost any project you make to turn godot into a most powerful engine that already is. 
 
 ## Updates
+* 2.0 - Updated
+	* All plugins to the latest version due to godot3.2.2 beta 1
+      - Added
+	* VPainter
+	* Easy Sheet Manager
 * 1.4 - Added
 	- Node Connector
 * 1.3 - Added
@@ -67,6 +72,15 @@ plugins, they can be found inside mods/ folder, this is related to SpriteTextScr
 * <details>
     <summary>Screenshot</summary>
     <img src="https://user-images.githubusercontent.com/1023003/40279962-da913c82-5c11-11e8-8a89-3802dd6e5ede.png" alt="">
+</details>
+
+## EasySheetManager
+* This plugin lets the user deal with irregular spritesheets, and automatically generates animations from selected ones.
+* Author: @nonunknown
+* ![Download](https://github.com/nonunknown/godot-sheet-manager)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://i.imgur.com/F6gqVGB.gif" alt="">
 </details>
 
 
@@ -189,6 +203,14 @@ It also gives you a better control over the Background Music. The sounds will no
     <img src="https://github.com/Xrayez/godot-vector-resource/raw/master/images/vector-editing.gif" alt="">
 </details>
 
+## VPainter
+* A vertex painting addon for the Godot game engine.
+* Author: @tomankirilov
+* ![Download](https://github.com/tomankirilov/VPainter)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://media.discordapp.net/attachments/218361207990648832/701432991343444018/ezgif-7-5e99cc5fcfb7.gif?width=716&height=403" alt="">
+</details>
 
   
   

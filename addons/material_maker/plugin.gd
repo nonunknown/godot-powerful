@@ -4,7 +4,7 @@ extends EditorPlugin
 var importer = null
 
 func _enter_tree() -> void:
-	importer = preload("res://addons/material_maker/import_plugin/ptex_import.gd").new(self)
+	importer = load("res://addons/material_maker/import_plugin/ptex_import.gd").new(self) as GDScript
 	add_import_plugin(importer)
 
 func _exit_tree() -> void:

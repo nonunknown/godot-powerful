@@ -19,16 +19,10 @@ func _enter_tree():
 	inspector_plugin = preload("vector_resource_inspector.gd").new()
 	add_inspector_plugin(inspector_plugin)
 
-	var editor_theme = get_editor_interface().get_base_control().theme
-	var icon = editor_theme.get_icon("3D", "EditorIcons")
-	add_custom_type("VectorResource", "Resource", VectorResource, icon)
-
 
 func _exit_tree():
 	remove_inspector_plugin(inspector_plugin)
 	inspector_plugin = null
-
-	remove_custom_type("VectorResource")
 
 
 func _on_vector_changed():

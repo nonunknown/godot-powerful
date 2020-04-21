@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://addons/CodeSnippetPopup/DropDownPopup.gd" type="Script" id=1]
+
+[node name="DropDownPopup" type="PopupMenu"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="index_pressed" from="." to="." method="_on_DropDownPopup_index_pressed"]
+[connection signal="popup_hide" from="." to="." method="_on_DropDownPopup_popup_hide"]

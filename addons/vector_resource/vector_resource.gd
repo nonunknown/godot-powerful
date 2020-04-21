@@ -1,4 +1,4 @@
-class_name VectorResource tool extends Resource
+class_name VectorResource, "icon.png" tool extends Resource
 #===============================================================================
 # Public
 #===============================================================================
