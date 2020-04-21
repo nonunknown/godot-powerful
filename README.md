@@ -1,4 +1,4 @@
-# Godot Powerful Tools & Essentials
+# Godot Powerful Tools & Essentials v2.0
 
 ![Power](https://i.imgur.com/w7TtzGN.png)
 
