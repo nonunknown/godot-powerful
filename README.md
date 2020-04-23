@@ -1,10 +1,12 @@
-# Godot Powerful Tools & Essentials v2.2
+# Godot Powerful Tools & Essentials v2.3
 
-![Power](https://i.imgur.com/w7TtzGN.png)
+![Power](https://i.imgur.com/Rd4uJBH.png)
 
 List of plugins that you need in almost any project you make to turn godot into a most powerful engine that already is. 
 
-## Updates
+* <details>
+    <summary>CHANGELOG</summary>
+* 2.3 - The organization update
 * 2.2 - Added
 	* Honor Mention Section
 	* External Tool Section
@@ -30,10 +32,14 @@ List of plugins that you need in almost any project you make to turn godot into 
     - Some titles will have WIP (Work in progress) which means it can leak features.
 * 1.1 - Link Correction
     - Updated ASM download link
+</details>
 
-## Download All-in-one
+
+# == Download All-in-one ==
 Now you can download this repo and extract it at your godot's project folder, some assets are not
 plugins, they can be found inside mods/ folder, this is related to SpriteTextScript and EasyBlend
+
+# == Plugins ==
 
 ## 3D Text (Label3D)
 * Hello! This is an addon built for Godot 3.1.x that adds 3D labels to your arsenal of nodes. It's just like a regular label, but in 3D! The addon simply adds a new node called Label3D that you can add anywhere in your 3D environment.
