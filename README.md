@@ -4,36 +4,37 @@
 
 List of plugins that you need in almost any project you make to turn godot into a most powerful engine that already is. 
 
-* <details>
-    <summary>CHANGELOG</summary>
+
 * 2.3 - The organization update
-* 2.2 - Added
+* 2.2
+	* **Added**
 	* Honor Mention Section
 	* External Tool Section
 	* HitboxEditor
 	* Aesome Godot
 	* Batch trimesh collision
 	* Runtime Console
-      - Moved
+	* **Moved**
       	* Godot Next to Honor Mention section
 	* Material Maker to External Tool Section
 	
-* 2.0 - Updated
+* 2.0
+	* **Update**
 	* All plugins to the latest version due to godot3.2.2 beta 1
-      - Added
+	* **Added**
 	* VPainter
 	* Easy Sheet Manager
-* 1.4 - Added
-	- Node Connector
-* 1.3 - Added
-    - Code Snippet
-* 1.2 - Added
-    - KiriSplat
-    - Some titles will have WIP (Work in progress) which means it can leak features.
-* 1.1 - Link Correction
-    - Updated ASM download link
-</details>
-
+* 1.4
+	* **Added**
+	* Node Connector
+* 1.3
+	* **Added**
+	* Code Snippet
+* 1.2
+	* **Added**
+	* KiriSplat
+	* **Updated**
+	* Some titles will have WIP (Work in progress) which means it can leak features.
 
 # == Download All-in-one ==
 Now you can download this repo and extract it at your godot's project folder, some assets are not
