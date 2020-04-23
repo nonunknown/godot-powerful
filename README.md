@@ -1,10 +1,21 @@
-# Godot Powerful Tools & Essentials v2.0
+# Godot Powerful Tools & Essentials v2.2
 
 ![Power](https://i.imgur.com/w7TtzGN.png)
 
 List of plugins that you need in almost any project you make to turn godot into a most powerful engine that already is. 
 
 ## Updates
+* 2.2 - Added
+	* Honor Mention Section
+	* External Tool Section
+	* HitboxEditor
+	* Aesome Godot
+	* Batch trimesh collision
+	* Runtime Console
+      - Moved
+      	* Godot Next to Honor Mention section
+	* Material Maker to External Tool Section
+	
 * 2.0 - Updated
 	* All plugins to the latest version due to godot3.2.2 beta 1
       - Added
@@ -46,6 +57,11 @@ plugins, they can be found inside mods/ folder, this is related to SpriteTextScr
 * This script allows you to load entire levels and all required assets while playing cutscenes. 
 * Author: @MasterPolska123
 * ![Download](https://github.com/MasterPolska123/Advanced-Backgound-Loader)
+
+## Batch Collisions
+* A plugin that automates the process of adding and updating collision shapes to meshes. Select one or more nodes and press F11 to add convex collision shapes or F12 to add concave ones.
+* Author: @DiV4
+* ![Download](https://github.com/DiV4/godot3.2.1_batch_collisions)
 
 ## Code Snippet Plugin
 * This plugin for Godot 3.2.X adds a popup which lists all available code snippets. The popup is shown with Control+Tab.
@@ -107,16 +123,6 @@ plugins, they can be found inside mods/ folder, this is related to SpriteTextScr
     <img src="https://pbs.twimg.com/media/ETFS4NiVAAUuvcs?format=jpg&name=large" alt="">
 </details>
 
-## Material Maker
-* This is a tool based on Godot Engine that can be used to create textures procedurally. 
-* Author: @RodZill4
-* ![Download](https://github.com/RodZill4/material-maker)
-* <details>
-    <summary>Screenshot</summary>
-    <img src="https://raw.githubusercontent.com/RodZill4/material-maker/master/material_maker/doc/images/screenshot.png" alt="">
-</details>
-
-
 ## Modifiers
 * Node that allows the creation of multiple chained modifiers for any node property.
 * Author: @samdze
@@ -125,11 +131,6 @@ plugins, they can be found inside mods/ folder, this is related to SpriteTextScr
     <summary>Screenshot</summary>
     <img src="https://i.imgur.com/Rm9fqIk.gif" alt="">
 </details>
-
-## Next
-* Godot Node Extensions, AKA Godot NExt, is a Godot 3.1+ repository dedicated to collecting basic script classes that are currently unavailable in vanilla Godot.
-* Author: @godot-extended-libraries
-* ![Download](https://github.com/godot-extended-libraries/godot-next)
 
 ## Node Connector
 * Plugin for the Godot editor that provides a convenient way to connect a bunch of UI elements to a script.
@@ -150,6 +151,14 @@ plugins, they can be found inside mods/ folder, this is related to SpriteTextScr
 * Author: @mastermarkus
 * ![Download](https://github.com/mastermarkus/QuickPluginManager)
 
+## Runtime Console
+* In-Game console to Godot 3.0+ for debugging purposes
+* Author: @coelhucas
+* ![Download](https://github.com/coelhucas/Godot-Runtime-Console)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://camo.githubusercontent.com/05b7a78d9c97d522f5ca463c2f11e20bd8812773/68747470733a2f2f692e696d6775722e636f6d2f586b38315a36372e706e67" alt="">
+</details>
 
 ## Screen Debugger
 * This is a plugin which enables the user to show their variables in-game. You can see the variables changing on-screen instead of printing them into console...
@@ -174,7 +183,6 @@ It also gives you a better control over the Background Music. The sounds will no
     <summary>Screenshot</summary>
     <img src="https://raw.githubusercontent.com/MightyPrinny/GodotSpriteText/master/Icon/Icon.png" alt="">
 </details>
-
 
 ## Text Editor
 * A little plugin to easy-way manage your text files inside your project folder.
@@ -212,5 +220,36 @@ It also gives you a better control over the Background Music. The sounds will no
     <img src="https://media.discordapp.net/attachments/218361207990648832/701432991343444018/ezgif-7-5e99cc5fcfb7.gif?width=716&height=403" alt="">
 </details>
 
-  
-  
+# == External tools ==
+These are tools made with godot, some can run inside the engine itself, others not, but still improves the engine.
+
+## Hitbox Editor
+* Dedicated tool for handling collision boxes accordingly with our animation frames and give us a output to be used later in-game. It's mainly focused to be used with Godot Engine at the moment. 
+* Author: @coelhucas
+* ![Download](https://github.com/coelhucas/hitbox-editor)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://raw.githubusercontent.com/coelhucas/hitbox-editor/master/Screenshots/Screen%20Shot%202019-11-25%20at%2012.53.29.png" alt="">
+</details>
+
+## Material Maker
+* This is a tool based on Godot Engine that can be used to create textures procedurally. 
+* Author: @RodZill4
+* ![Download](https://github.com/RodZill4/material-maker)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://raw.githubusercontent.com/RodZill4/material-maker/master/material_maker/doc/images/screenshot.png" alt="">
+</details>
+
+# == Honor Mentions ==
+Mentions to other repos, like godot-powerful, maybe there you can find something more specific to your project.
+
+## Awesome Godot
+* A curated list of free/libre games, plugins, add-ons and scripts for Godot.
+* Author: @Calinou
+* ![Take me there](https://github.com/Calinou/awesome-godot)
+
+## Next
+* Godot Node Extensions, AKA Godot NExt, is a Godot 3.1+ repository dedicated to collecting basic script classes that are currently unavailable in vanilla Godot.
+* Author: @godot-extended-libraries
+* ![Take me there](https://github.com/godot-extended-libraries/godot-next)
