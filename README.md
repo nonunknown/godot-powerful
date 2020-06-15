@@ -1,10 +1,19 @@
-# Godot Powerful Tools & Essentials v2.3
+# Godot Powerful Tools & Essentials v3.0
 
 ![Power](https://i.imgur.com/Rd4uJBH.png)
 
 List of plugins that you need in almost any project you make to turn godot into a most powerful engine that already is. 
 
-
+* 3.0 - Hands up guys - Godot is getting more powerful than ever before
+	* **Added**
+	* Concept Graph
+	* Audio Effect Inspector
+	* Volumetrics
+	* KRA & PSD Importer
+	* Github Integration
+	* Debug Draw
+	* Smart Audio Stream
+	* Trail System
 * 2.3 - The organization update
 * 2.2
 	* **Added**
@@ -64,6 +73,15 @@ plugins, they can be found inside mods/ folder, this is related to SpriteTextScr
 * This script allows you to load entire levels and all required assets while playing cutscenes. 
 * Author: @MasterPolska123
 * ![Download](https://github.com/MasterPolska123/Advanced-Backgound-Loader)
+ 
+## Audio Effect Inspector
+* Audio Effects could be confusing to users who may be unfamiliar with the Audio Engineering environment and its tools. Looking at sliders with no visual feedback may seem a little daunting. This is where the Audio Effect Inspector comes in handy! It enables you to control your tools much easier with a graphical interface; like any VST plugin used in DAWs.
+* Author: @NoodleSushi
+* ![Download](https://github.com/NoodleSushi/AudioEffectInspector_GodotAddon)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://raw.githubusercontent.com/NoodleSushi/AudioEffectInspector_GodotAddon/master/README%20Content/AudioEffectReverb.gif" alt="">
+</details>
 
 ## Batch Collisions
 * A plugin that automates the process of adding and updating collision shapes to meshes. Select one or more nodes and press F11 to add convex collision shapes or F12 to add concave ones.
@@ -88,6 +106,24 @@ plugins, they can be found inside mods/ folder, this is related to SpriteTextScr
     <img src="https://user-images.githubusercontent.com/1174413/61975708-68a63d80-afd9-11e9-8ab9-c6f1ec946cf2.png" alt="">
 </details>
 
+## Concept Graph
+* An addon for node based content creation directly from the Godot engine editor.
+* Author: @HungryProton
+* ![Download](https://github.com/HungryProton/concept_graph)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://user-images.githubusercontent.com/52043844/82753149-d0791080-9dc3-11ea-8b76-035d7115ee55.png" alt="">
+</details>
+ 
+## Debug Draw
+* This is a small debug drawing script, which you can setup as an auto-load singleton. It lets you print text on the screen, draw boxes or lines from anywhere in your code. It is mostly geared towards 3D at the moment.
+* Author: @Zylann
+* ![Download](https://github.com/Zylann/godot_debug_draw)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://user-images.githubusercontent.com/1311555/83977160-3f8f5280-a8f6-11ea-8dbb-696f794fcd6a.png" alt="">
+</details>
+ 
 ## EasyBlend
 * EasyBlend is a shader which allows you to set a custom blending mode for your canvas item. Included are many of the blending modes you will find in common image editors. 
 * Author: @nobuyukinyuu
@@ -106,6 +142,14 @@ plugins, they can be found inside mods/ folder, this is related to SpriteTextScr
     <img src="https://i.imgur.com/F6gqVGB.gif" alt="">
 </details>
 
+## Github Integration
+* A complete GitHub integration for your Godot Editor! Manage your project without even opening your browser.
+* Author: @fenix-hub
+* ![Download](https://github.com/fenix-hub/godot-engine.github-integration)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://raw.githubusercontent.com/fenix-hub/godot-engine.github-integration/master/addons/github-integration/screenshots/singin.png" alt="">
+</details>
 
 ## GPU TileMap
 * This is a shader based tilemap alternative, tiles have the same width and height, maps are stored as image textures, for now the maps are saved in the scene
@@ -153,6 +197,15 @@ plugins, they can be found inside mods/ folder, this is related to SpriteTextScr
 * Author: @brandonlamb
 * ![Download](https://github.com/godot-addons/godot-object-pool)
 
+## PSD/KRA Importer
+* GDNative wrapper for Importing KRA- and PSD-files into Godot 3.1+, making it possible to significantly speed up development. Additionally, it does not require any additional compilation or mucking about with build scripts.
+* Author: @2shady4u
+* ![Download](https://github.com/2shady4u/godot-kra-psd-importer)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://raw.githubusercontent.com/2shady4u/godot-kra-psd-importer/master/icon/godot-kra-psd-importer-banner.png" alt="">
+</details>
+
 ## Quick Plugin Manager
 * Faster plugin management without going deep into Godot's plugin settings. 
 * Author: @mastermarkus
@@ -175,6 +228,11 @@ plugins, they can be found inside mods/ folder, this is related to SpriteTextScr
     <summary>Screenshot</summary>
     <img src="https://i.imgur.com/8Uu2bvf.png" alt="">
 </details>
+
+## Smart Audio Stream
+* think a jumping audio with a duration of 1 sec but your player takes only .5s to do jumps, using the normal AudioStream it will cut the currently playing audio and start it again, with this plugin it knows if a sound is already playing and instead of cut and play again it will set another stream to play so you will hear the sounds without cutting them.
+* Author: @nonunknown
+* ![Download](https://github.com/nonunknown/smart-audio-stream)
 
 ## Sound Manager
 * The Sound Manager gives the users a better control over the audio of their games. Using this plugin, it is possible to play every sound of the game using just simple method calls. No more long AudioStreamPlayer lists inside your scenes nor long methods to handle the audio inside every script.
@@ -209,6 +267,15 @@ It also gives you a better control over the Background Music. The sounds will no
     <img src="https://i.imgur.com/sSm03Zg.gif" alt="">
 </details>
 
+## Trail System
+* Godot Trail System is an advanced trail/ribbon plugin for the Godot Engine similar to Unity3D's system. The plugin offers full features in 3D and basic 2D functionality (it will be updated later).
+* Author: @OBKF
+* ![Download](https://github.com/OBKF/Godot-Trail-System)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://raw.githubusercontent.com/OBKF/Godot-Trail-System/master/godot_trail.png" alt="">
+</details>
+
 ## Vector Resource
 * A Godot Engine plugin which introduces a new VectorResource type and an accompanying editor. These allow to store vectors externally and conveniently edit Vector2/3 core data types as regular resources which can be shared between multiple instances.
 * Author: @Xrayez
@@ -216,6 +283,15 @@ It also gives you a better control over the Background Music. The sounds will no
 * <details>
     <summary>Screenshot</summary>
     <img src="https://github.com/Xrayez/godot-vector-resource/raw/master/images/vector-editing.gif" alt="">
+</details>
+
+## Volumetrics
+* Hello fellow Godot user. This plugin will enable to create well lit volumetric fog in the game engine. GLES 3 only.
+* Author: @SIsilicon
+* ![Download](https://github.com/SIsilicon/Godot-Volumetrics-Plugin)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://raw.githubusercontent.com/SIsilicon/Godot-Volumetrics-Plugin/master/doc_images/volumetrics_plugin.png" alt="">
 </details>
 
 ## VPainter
