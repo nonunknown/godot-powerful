@@ -4,15 +4,15 @@
       "desc": "adds 3D labels to your arsenal of nodes. It's just like a regular label, but in 3D! The addon simply adds a new node called Label3D that you can add anywhere in your 3D environment.",
       "type": "default",
       "author": "SIsilicon",
-      "url": "https://github.com/SIsilicon/Godot-3D-text-plugin/tree/master/addons",
+      "url": "SIsilicon/Godot-3D-text-plugin/contents/addons",
       "screenshot": "https://raw.githubusercontent.com/SIsilicon/Godot-3D-text-plugin/master/icon.png"
    },
    "Abstract State Machine": {
       "image": "asm",
       "desc": "ASM is a GraphNode Based State machine tool for Godot 3, It generates a ready-to-go state machine for your game",
       "type": "default",
-      "author": "Nonunknown",
-      "url": "https://github.com/godot-extended-libraries/abstract-state-machine/tree/master/addons",
+      "author": "Nonunknown from GodotExtendedLibraries",
+      "url": "godot-extended-libraries/abstract-state-machine/contents/addons",
       "screenshot": "https://camo.githubusercontent.com/534c1e4f4051875090186c50df9754f5342119ac/68747470733a2f2f692e696d6775722e636f6d2f35506564555a6d2e706e67"
    }
 }
