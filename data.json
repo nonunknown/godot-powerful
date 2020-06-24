@@ -3,16 +3,240 @@
       "image": "3dlabel",
       "desc": "adds 3D labels to your arsenal of nodes. It's just like a regular label, but in 3D! The addon simply adds a new node called Label3D that you can add anywhere in your 3D environment.",
       "type": "default",
-      "author": "SIsilicon",
-      "url": "SIsilicon/Godot-3D-text-plugin/contents/addons",
+      "Author": "SIsilicon",
+      "url": "/Sisilicon/Godot-3D-text-plugin/contents/addons",
       "screenshot": "https://raw.githubusercontent.com/SIsilicon/Godot-3D-text-plugin/master/icon.png"
    },
    "Abstract State Machine": {
       "image": "asm",
       "desc": "ASM is a GraphNode Based State machine tool for Godot 3, It generates a ready-to-go state machine for your game",
       "type": "default",
-      "author": "Nonunknown from GodotExtendedLibraries",
-      "url": "godot-extended-libraries/abstract-state-machine/contents/addons",
+      "Author": "Nonunknown",
+      "url": "/godot-extended-libraries/abstract-state-machine/contents/addons",
       "screenshot": "https://camo.githubusercontent.com/534c1e4f4051875090186c50df9754f5342119ac/68747470733a2f2f692e696d6775722e636f6d2f35506564555a6d2e706e67"
+   },
+   "Advanced Background Loader": {
+      "image": "abl",
+      "desc": "This script allows you to load entire levels and all required assets while playing cutscenes.",
+      "type": "default",
+      "Author": "Master Polska 123",
+      "url": "/MasterPolska123/Advanced-Backgound-Loader/contents/addons",
+      "screenshot": ""
+   },
+   "Audio Effect Inspector": {
+      "image": "effect",
+      "desc": "Audio Effects could be confusing to users who may be unfamiliar with the Audio Engineering environment and its tools. Looking at sliders with no visual feedback may seem a little daunting. This is where the Audio Effect Inspector comes in handy! It enables you to control your tools much easier with a graphical interface; like any VST plugin used in DAWs.",
+      "type": "default",
+      "Author": "Noodle Sushi",
+      "url": "/NoodleSushi/AudioEffectInspector_GodotAddon/contents/addons",
+      "screenshot": "https://raw.githubusercontent.com/NoodleSushi/AudioEffectInspector_GodotAddon/master/README%20Content/AudioEffectReverb.gif"
+   },
+   "Batch Collision": {
+      "image": "batch",
+      "desc": "A plugin that automates the process of adding and updating collision shapes to meshes. Select one or more nodes and press F11 to add convex collision shapes or F12 to add concave ones.",
+      "type": "default",
+      "Author": "DiV4",
+      "url": "/DiV4/godot3.2.1_batch_collisions/contents/addons",
+      "screenshot": "https://raw.githubusercontent.com/DiV4/godot3.2.1_batch_collisions/master/menu_screenshot.png"
+   },
+   "Code Snippet": {
+      "image": "code",
+      "desc": "This plugin for Godot 3.2.X adds a popup which lists all available code snippets. The popup is shown with Control+Tab.",
+      "type": "default",
+      "Author": "Leleat",
+      "url": "/Leleat/AgodotCodeSnippetPlugin/contents/addons",
+      "screenshot": "https://raw.githubusercontent.com/Leleat/AGodotCodeSnippetPlugin/master/preview.png"
+   },
+   "Command Pallete": {
+      "image": "cmd",
+      "desc": "A Godot addon inspired by CtrlP, making it faster and easier to open the resource you're looking for in the editor.",
+      "type": "default",
+      "Author": "Ivan Fon",
+      "url": "/IvanFon/godot-command-palette/contents/addons",
+      "screenshot": "https://user-images.githubusercontent.com/1174413/61975708-68a63d80-afd9-11e9-8ab9-c6f1ec946cf2.png"
+   },
+   "Concept Graph": {
+      "image": "concept",
+      "desc": "An addon for node based content creation directly from the Godot engine editor.",
+      "type": "default",
+      "Author": "Hungry Proton",
+      "url": "/HungryProton/concept_graph/contents/addons",
+      "screenshot": "https://user-images.githubusercontent.com/52043844/82753149-d0791080-9dc3-11ea-8b76-035d7115ee55.png"
+   },
+   "Debug Draw": {
+      "image": "debugd",
+      "desc": "This is a small debug drawing script, which you can setup as an auto-load singleton. It lets you print text on the screen, draw boxes or lines from anywhere in your code. It is mostly geared towards 3D at the moment.",
+      "type": "default",
+      "Author": "Zylann",
+      "url": "/Zylann/godot_debug_draw/contents/addons",
+      "screenshot": "https://user-images.githubusercontent.com/1311555/83977160-3f8f5280-a8f6-11ea-8dbb-696f794fcd6a.png"
+   },
+   "Easy Blend": {
+      "image": "blend",
+      "desc": "EasyBlend is a shader which allows you to set a custom blending mode for your canvas item. Included are many of the blending modes you will find in common image editors.",
+      "type": "mod",
+      "Author": "Nobuyukinyuu",
+      "url": "/nobuyukinyuu/Godot-EasyBlend/contents/EasyBlend",
+      "screenshot": "https://user-images.githubusercontent.com/1023003/40279962-da913c82-5c11-11e8-8a89-3802dd6e5ede.png"
+   },
+   "Easy Sheet Manager": {
+      "image": "sheet",
+      "desc": "This plugin lets the user deal with irregular spritesheets, and automatically generates animations from selected ones.",
+      "type": "default",
+      "Author": "Non Unknown",
+      "url": "/nonunknown/godot-sheet-manager/contents/addons",
+      "screenshot": "https://camo.githubusercontent.com/37b402d0e3287c75dfd2ef796909882183b1eb1e/68747470733a2f2f692e696d6775722e636f6d2f463667715647422e676966"
+   },
+   "Github Integration": {
+      "image": "github",
+      "desc": "A complete GitHub integration for your Godot Editor! Manage your project without even opening your browser.",
+      "type": "default",
+      "Author": "Fenix Hub",
+      "url": "/fenix-hub/godot-engine.github-integration/contents/addons",
+      "screenshot": "https://raw.githubusercontent.com/fenix-hub/godot-engine.github-integration/master/addons/github-integration/screenshots/singin.png"
+   },
+   "GPU Tilemap": {
+      "image": "gpu",
+      "desc": "This is a shader based tilemap alternative, tiles have the same width and height, maps are stored as image textures, for now the maps are saved in the scene",
+      "type": "default",
+      "Author": "Mighty Prinny",
+      "url": "/MightyPrinny/godot-gputilemap/contents/addons",
+      "screenshot": ""
+   },
+   "Inspector Gadget": {
+      "image": "inspector",
+      "desc": "Inspector gadget is a set of GDScript UI controls designed to read and write object properties at runtime. It extends the standard get_indexed() function from the Node",
+      "type": "default",
+      "Author": "Shifty",
+      "url": "/Shfty/inspector-gadget/contents/addons",
+      "screenshot": "https://camo.githubusercontent.com/ba41548595e913c55f19ba9cfbfec746257fe9b1/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f4554637845354b576b41493245486a3f666f726d61743d706e67266e616d653d6d656469756d"
+   },
+   "Kirisplat Decal": {
+      "image": "kirisplat",
+      "desc": "KiriSplat is a decals system for Godot",
+      "type": "default",
+      "Author": "Expired Popsicle",
+      "url": "/ExpiredPopsicle/KiriSplat/contents/addons",
+      "screenshot": "https://camo.githubusercontent.com/127eb7309ab5c2890dee88a69695a590fe9ccad6/68747470733a2f2f7062732e7477696d672e636f6d2f6d656469612f45544653344e6956414155757663733f666f726d61743d6a7067266e616d653d6c61726765"
+   },
+   "Modifiers": {
+      "image": "mod",
+      "desc": "Node that allows the creation of multiple chained modifiers for any node property.",
+      "type": "default",
+      "Author": "Samdze",
+      "url": "/samdze/godot-modifiers-plugin/contents/addons",
+      "screenshot": "https://camo.githubusercontent.com/4c927f4c82bcee68862889a96523c50e90a92d0e/68747470733a2f2f692e696d6775722e636f6d2f4e746a794861412e676966"
+   },
+   "Node Connector": {
+      "image": "conn",
+      "desc": "Plugin for the Godot editor that provides a convenient way to connect a bunch of UI elements to a script.",
+      "type": "default",
+      "Author": "Rybadour",
+      "url": "/Rybadour/NodeConnectorGodot/contents/addons",
+      "screenshot": "https://raw.githubusercontent.com/Rybadour/NodeConnectorGodot/master/demo.gif"
+   },
+   "Object Pool": {
+      "image": "object",
+      "desc": "Godot object pool. Used to instantiate a pool of objects using a user-defined pool size, PackedScene, and prefix. Some convenience methods exposed allowing a pool.get_next_dead() to fetch the next available object from the pool.",
+      "type": "default",
+      "Author": "Brandon Lamb",
+      "url": "/godot-addons/godot-object-pool/contents/addons",
+      "screenshot": ""
+   },
+   "PSD/KRA Importer": {
+      "image": "psd",
+      "desc": "GDNative wrapper for Importing KRA- and PSD-files into Godot 3.1+, making it possible to significantly speed up development. Additionally, it does not require any additional compilation or mucking about with build scripts",
+      "type": "native",
+      "Author": "2Shady 4u",
+      "url": "/2shady4u/godot-kra-psd-importer/contents/addons",
+      "screenshot": "https://raw.githubusercontent.com/2shady4u/godot-kra-psd-importer/master/icon/godot-kra-psd-importer-banner.png"
+   },
+   "Quick Plugin Manager": {
+      "image": "quick",
+      "desc": "Faster plugin management without going deep into Godot's plugin settings.",
+      "type": "default",
+      "Author": "Master Markus",
+      "url": "/mastermarkus/QuickPluginManager/contents/addons",
+      "screenshot": ""
+   },
+   "Runtime Console": {
+      "image": "console",
+      "desc": "In-Game console to Godot 3.0+ for debugging purposes",
+      "type": "default",
+      "Author": "Coelhucas",
+      "url": "https://github.com/coelhucas/Godot-Runtime-Console",
+      "screenshot": "https://camo.githubusercontent.com/05b7a78d9c97d522f5ca463c2f11e20bd8812773/68747470733a2f2f692e696d6775722e636f6d2f586b38315a36372e706e67"
+   },
+   "Screen Debugger": {
+      "image": "screen",
+      "desc": "This is a plugin which enables the user to show their variables in-game. You can see the variables changing on-screen instead of printing them into console...",
+      "type": "default",
+      "Author": "Non Unknown",
+      "url": "/nonunknown/screen-debugger/contents/addons",
+      "screenshot": "https://camo.githubusercontent.com/a7b27e1f684aa9871df149fc103722e066308803/68747470733a2f2f692e696d6775722e636f6d2f385575326276662e706e67"
+   },
+   "Sound Manager": {
+      "image": "sound",
+      "desc": "The Sound Manager gives the users a better control over the audio of their games. Using this plugin, it is possible to play every sound of the game using just simple method calls. No more long AudioStreamPlayer lists inside your scenes nor long methods to handle the audio inside every script. It also gives you a better control over the Background Music. The sounds will not stop between scenes anymore, giving you the power to stop it and play it whenever and however you want.",
+      "type": "lab",
+      "Author": "Xecestel",
+      "url": "https://gitlab.com/Xecestel/sound-manager",
+      "screenshot": ""
+   },
+   "Smart Audio Stream": {
+      "image": "smart",
+      "desc": "think a jumping audio with a duration of 1 sec but your player takes only .5s to do jumps, using the normal AudioStream it will cut the currently playing audio and start it again, with this plugin it knows if a sound is already playing and instead of cut and play again it will set another stream to play so you will hear the sounds without cutting them.",
+      "type": "default",
+      "Author": "Non Unknown",
+      "url": "/nonunknown/smart-audio-stream/contents/addons",
+      "screenshot": ""
+   },
+   "Sprite Text": {
+      "image": "sprite",
+      "desc": "Script that can be used as a label that uses a sprite sheet to display text",
+      "type": "mod",
+      "Author": "Mighty Prinny",
+      "url": "/MightyPrinny/GodotSpriteText/contents/SpriteTextScript",
+      "screenshot": "https://raw.githubusercontent.com/MightyPrinny/GodotSpriteText/master/Icon/Icon.png"
+   },
+   "Text Editor": {
+      "image": "text",
+      "desc": "A little plugin to easy-way manage your text files inside your project folder.",
+      "type": "default",
+      "Author": "Fenix Hub",
+      "url": "/fenix-hub/godot-engine.file-editor/contents/addons",
+      "screenshot": "https://camo.githubusercontent.com/dd8baad756102bf37275baf8e6f81c51d785b138/68747470733a2f2f692e696d6775722e636f6d2f617367676b34662e706e67"
+   },
+   "TODO": {
+      "image": "todo",
+      "desc": "This is a TODO list dock for the Godot 3 game engine",
+      "type": "default",
+      "Author": "Need",
+      "url": "/need12648430/godot3-todo/contents/addons",
+      "screenshot": "https://camo.githubusercontent.com/eb8ecfe9186b0ab966cba69947303590d183c2ac/68747470733a2f2f692e696d6775722e636f6d2f73536d30335a672e676966"
+   },
+   "Trail System": {
+      "image": "trail",
+      "desc": "Godot Trail System is an advanced trail/ribbon plugin for the Godot Engine similar to Unity3D's system. The plugin offers full features in 3D and basic 2D functionality (it will be updated later).",
+      "type": "default",
+      "Author": "OBKF",
+      "url": "/OBKF/Godot-Trail-System/contents/addons",
+      "screenshot": "https://raw.githubusercontent.com/OBKF/Godot-Trail-System/master/godot_trail.png"
+   },
+   "Volumetrics": {
+      "image": "vol",
+      "desc": "Hello fellow Godot user. This plugin will enable to create well lit volumetric fog in the game engine. GLES 3 only.",
+      "type": "default",
+      "Author": "SIsilicon",
+      "url": "/Sisilicon/Godot-Volumetrics-Plugin/contents/addons",
+      "screenshot": "https://raw.githubusercontent.com/SIsilicon/Godot-Volumetrics-Plugin/master/doc_images/volumetrics_plugin.png"
+   },
+   "Vpainter": {
+      "image": "vpainter",
+      "desc": "A vertex painting addon for the Godot game engine.",
+      "type": "default",
+      "Author": "Tomankirilov",
+      "url": "/tomankirilov/Vpainter/contents/addons",
+      "screenshot": "https://raw.githubusercontent.com/tomankirilov/VPainter/master/images/preview.gif"
    }
 }
