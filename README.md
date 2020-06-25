@@ -3,6 +3,12 @@
 ![Power](https://i.imgur.com/Rd4uJBH.png)
 
 
+## Motivate-me =D
+You can motivate me continue this and a lot of other projects to improve godot-engine, and help a lot of people making their dreams come true:
+
+https://ko-fi.com/nonunknown
+
+
 ## What this is?
 List of plugins that you need in almost any project you make to turn godot into a most powerful engine that already is. 
 
@@ -17,6 +23,7 @@ the github oficial folder of the plugin, it will be always the latest version th
 
 
 ### Screenshots
+
 
 
 # == External tools ==
