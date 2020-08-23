@@ -266,7 +266,7 @@ It also gives you a better control over the Background Music. The sounds will no
 ## C++ Helper
 * Plugin to help with some of the more tedious aspects of developing with GDNative C++.
 * Author: @turtlewit
-* ![Download](https://gitlab.com/turtlewit/godot_cpp_helper_plugin)
+* https://gitlab.com/turtlewit/godot_cpp_helper_plugin
 * <details>
     <summary>Screenshot</summary>
     <img src="https://gitlab.com/turtlewit/godot_cpp_helper_plugin/-/wikis/uploads/60d25e2dfe05b2d248741c695a386d95/screenshot.png" alt="">
