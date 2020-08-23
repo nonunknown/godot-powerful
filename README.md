@@ -1,6 +1,6 @@
 # Godot Powerful Tools & Essentials v4.3
 
-![Power](https://i.imgur.com/Rd4uJBH.png)
+![Power](https://i.imgur.com/SoDfQUP.png)
 
 
 ## Motivate-me =D
@@ -14,6 +14,8 @@ List of plugins that you need in almost any project you make to turn godot into 
 
 
 ## What's new?
+
+* Added Language Support Section
 
 * Animation Frame Picker
 * Sound Manager (Huge Update on the plugin)
@@ -258,6 +260,50 @@ It also gives you a better control over the Background Music. The sounds will no
     <summary>Screenshot</summary>
     <img src="https://media.discordapp.net/attachments/218361207990648832/701432991343444018/ezgif-7-5e99cc5fcfb7.gif?width=716&height=403" alt="">
 </details>
+
+# == Language Support ==
+
+## C++ Helper
+* Plugin to help with some of the more tedious aspects of developing with GDNative C++.
+* Author: @turtlewit
+* ![Download](https://gitlab.com/turtlewit/godot_cpp_helper_plugin)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://gitlab.com/turtlewit/godot_cpp_helper_plugin/-/wikis/uploads/60d25e2dfe05b2d248741c695a386d95/screenshot.png" alt="">
+</details>
+
+## Python
+* The goal of this project is to provide Python language support as a scripting module for the Godot game engine.
+* Author: @touilleMan
+* ![Download](https://github.com/touilleMan/godot-python)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://raw.githubusercontent.com/touilleMan/godot-python/master/misc/showcase.png" alt="">
+</details>
+
+## Rust
+* Rust bindings to the Godot game engine.
+* Author: @godot-rust
+* ![Download](https://github.com/godot-rust/godot-rust)
+
+## Kotlin
+* This is a Kotlin language binding for the Godot game engine. It uses GDNative to interact with Godot's core api's. The binding provides you Godot API's as Kotlin classes, so you can write your game logic completely in Kotlin. It will be compiled into a dynamic library using Kotlin/Native. You don't have to worry about any binding logic. Just write your game scripts like you would for GDScript or C# but with all the syntactic sugar of kotlin.
+* Author: @utopia-rise
+* ![Download](https://github.com/utopia-rise/godot-kotlin)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://github.com/utopia-rise/godot-kotlin/raw/master/docs/src/doc/assets/img/logo.png" alt="">
+</details>
+
+## Javascript / Typescript
+* This module implements JavaScript/TypeScript language support for the godot game engine. QuickJS is used as the ECMAScript engine.
+* Author: @GodotExplorer
+* ![Download](https://github.com/GodotExplorer/ECMAScript)
+
+## Lua
+* Lua 5.4 language support for Godot Engine 3.2.x-stable (4.0-dev too unstable to work with for now)
+* Author: @perbone
+* ![Download](https://github.com/perbone/luascript)
 
 # == External tools ==
 These are tools made with godot, some can run inside the engine itself, others not, but still improves the engine.
