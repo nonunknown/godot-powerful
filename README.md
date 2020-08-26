@@ -1,4 +1,4 @@
-# Godot Powerful Tools & Essentials v5.0
+# Godot Powerful Tools & Essentials v5.2
 
 ![Power](https://i.imgur.com/SoDfQUP.png)
 
@@ -17,10 +17,8 @@ List of plugins that you need in almost any project you make to turn godot into 
 
 * Added Language Support Section
 
-* Animation Frame Picker
-* Sound Manager (Huge Update on the plugin)
-* File System View
-* A new honor mention to Ridiculous Coding
+* Global Illumination 2D
+* Tiled to Godot Export
 # == Plugins ==
 
 ## 3D Text (Label3D)
@@ -105,15 +103,6 @@ List of plugins that you need in almost any project you make to turn godot into 
     <img src="https://user-images.githubusercontent.com/1023003/40279962-da913c82-5c11-11e8-8a89-3802dd6e5ede.png" alt="">
 </details>
 
-## SpriteSheet Manager
-* This plugin lets the user deal with irregular spritesheets, and automatically generates animations from selected ones.
-* Author: @nonunknown
-* ![Download](https://github.com/nonunknown/godot-sheet-manager)
-* <details>
-    <summary>Screenshot</summary>
-    <img src="https://i.imgur.com/F6gqVGB.gif" alt="">
-</details>
-
 ## File System View
 * A Godot tool similar to FileSystem dock, allows you to customize filters(views) to work with project resources.
 * Author: @zaevi
@@ -130,6 +119,15 @@ List of plugins that you need in almost any project you make to turn godot into 
 * <details>
     <summary>Screenshot</summary>
     <img src="https://raw.githubusercontent.com/fenix-hub/godot-engine.github-integration/master/addons/github-integration/screenshots/singin.png" alt="">
+</details>
+
+## Global Illumination 2D
+* 2D global illumination implemented in the Godot game engine. I made it because I didn't find any examples of this sort of 2D rendering in Godot, and no examples in other engines that had publicly available code.
+* Author: @samuelbigos
+* ![Download](https://github.com/samuelbigos/godot_2d_global_illumination)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://raw.githubusercontent.com/samuelbigos/godot_2d_global_illumination/master/promo/header.png" alt="">
 </details>
 
 ## GPU TileMap
@@ -207,6 +205,15 @@ It also gives you a better control over the Background Music. The sounds will no
 * Author: @Xecestel
 * https://gitlab.com/Xecestel/sound-manager
 
+## SpriteSheet Manager
+* This plugin lets the user deal with irregular spritesheets, and automatically generates animations from selected ones.
+* Author: @nonunknown
+* ![Download](https://github.com/nonunknown/godot-sheet-manager)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://i.imgur.com/F6gqVGB.gif" alt="">
+</details>
+
 ## SpriteText
 * Script that can be used as a label that uses a sprite sheet to display text
 * Author: @MightyPrinny
@@ -224,6 +231,11 @@ It also gives you a better control over the Background Music. The sounds will no
     <summary>Screenshot</summary>
     <img src="https://camo.githubusercontent.com/dd8baad756102bf37275baf8e6f81c51d785b138/68747470733a2f2f692e696d6775722e636f6d2f617367676b34662e706e67" alt="">
 </details>
+
+## Tiled To Godot Export
+* Tiled plugins for exporting Tilemaps and Tilesets in Godot 3.2 format.
+* Author: @MikeMnD
+* ![Download](https://github.com/MikeMnD/tiled-to-godot-export)
 
 ## TODO
 * This is a TODO list dock for the Godot 3 game engine
