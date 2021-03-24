@@ -1,6 +1,6 @@
-# Godot Powerful Tools & Essentials v5.2
+# Godot Powerful Plugins & Essentials v6.0
 
-![Power](https://i.imgur.com/SoDfQUP.png)
+![Power](https://i.imgur.com/T6zzGET.png)
 
 
 ## Motivate-me =D
@@ -15,28 +15,50 @@ List of plugins that you need in almost any project you make to turn godot into 
 
 ## What's new?
 
-* Added Language Support Section
+* Improved Organization
+* Created Organization Section
+* Added to Organization Section:
+  - Moved Code Snippet to there
+  - Moved Command Pallete to there
+  - Moved File System view to there
+  - Moved GithubIntegration to there
+  - Moved QuickPlugin Manager
+  - Project Map
+  - Folder Node
+  - TODO Manager
+ 
+* Added to Plugins:
+  - Mesh Batcher
+  - Weather2D
+  - Localization Editor
+  - Behaviour Tree
+  - Firebase
+  - GDScript to C#
+  - Native Integration
+  - Decal
+  - Level of Detail (LOD)
+ 
+* Removed from Plugins:
+    - ASM Abstract state machine (WIP abandoned project)
+    - Runtime Console
+    - Screen Debugger
+    - Old abandoned TODO plugin
+    - Old abandoned Kirisplat Decal plugin
 
-* Global Illumination 2D
-* Tiled to Godot Export
+
+* Removed from External Tools:
+    - HitBox Editor
+
+
 # == Plugins ==
 
 ## 3D Text (Label3D)
 * Hello! This is an addon built for Godot 3.1.x that adds 3D labels to your arsenal of nodes. It's just like a regular label, but in 3D! The addon simply adds a new node called Label3D that you can add anywhere in your 3D environment.
 * Author: @SIsilicon
-* ![Download](https://github.com/SIsilicon/Godot-3D-text-plugin)
+* ![Explore](https://github.com/SIsilicon/Godot-3D-text-plugin)
 * <details>
     <summary>Screenshot</summary>
     <img src="https://raw.githubusercontent.com/SIsilicon/Godot-3D-text-plugin/master/icon.png" alt="">
-</details>
-
-## Abstract State Machine (ASM) / WIP
-* ASM is a GraphNode Based State machine tool for Godot 3, It generates a ready-to-go state machine for your game:
-* Author: @nonunknown
-* ![Download](https://github.com/godot-extended-libraries/abstract-state-machine/)
-* <details>
-    <summary>Screenshot</summary>
-    <img src="https://camo.githubusercontent.com/534c1e4f4051875090186c50df9754f5342119ac/68747470733a2f2f692e696d6775722e636f6d2f35506564555a6d2e706e67" alt="">
 </details>
 
 ## Advanced Background Loader
@@ -67,22 +89,13 @@ List of plugins that you need in almost any project you make to turn godot into 
 * Author: @DiV4
 * ![Download](https://github.com/DiV4/godot3.2.1_batch_collisions)
 
-## Code Snippet Plugin
-* This plugin for Godot 3.2.X adds a popup which lists all available code snippets. The popup is shown with Control+Tab.
-* Author: @Leleat
-* ![Download](https://github.com/Leleat/AGodotCodeSnippetPlugin)
+## Behaviour Tree
+* Build complex patterns and behaviors with the native scene tree editor, move behavior nodes around and edit them without fear of cracking the system.
+* Author: @GabrieleTorini
+* ![Explore](https://github.com/GabrieleTorini/godot-behavior-tree)
 * <details>
     <summary>Screenshot</summary>
-    <img src="https://raw.githubusercontent.com/Leleat/AGodotCodeSnippetPlugin/master/preview.png" alt="">
-</details>
-
-## Command Pallete
-* A Godot addon inspired by CtrlP, making it faster and easier to open the resource you're looking for in the editor.
-* Author: @IvanFon
-* ![Download](https://github.com/IvanFon/godot-command-palette)
-* <details>
-    <summary>Screenshot</summary>
-    <img src="https://user-images.githubusercontent.com/1174413/61975708-68a63d80-afd9-11e9-8ab9-c6f1ec946cf2.png" alt="">
+    <img src="https://raw.githubusercontent.com/GabrieleTorini/godot-behavior-tree/main/bt_images/Screenshot%202021-03-13%20085615.png" alt="">
 </details>
 
 ## Concept Graph
@@ -94,6 +107,15 @@ List of plugins that you need in almost any project you make to turn godot into 
     <img src="https://user-images.githubusercontent.com/52043844/82753149-d0791080-9dc3-11ea-8b76-035d7115ee55.png" alt="">
 </details>
  
+## Decal
+* DecalCO is a shader based solution for the Godot game engine. Decals are a great tool used to add details to a 3d object without having to add more details to its geometry or using really large texture maps.
+* Author: @Master-J
+* ![Download](https://github.com/Master-J/DecalCo)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://user-images.githubusercontent.com/54776415/83613098-9528cf80-a583-11ea-92e1-d0b6e10069b0.PNG" alt="">
+</details>
+ 
 ## EasyBlend
 * EasyBlend is a shader which allows you to set a custom blending mode for your canvas item. Included are many of the blending modes you will find in common image editors. 
 * Author: @nobuyukinyuu
@@ -103,22 +125,18 @@ List of plugins that you need in almost any project you make to turn godot into 
     <img src="https://user-images.githubusercontent.com/1023003/40279962-da913c82-5c11-11e8-8a89-3802dd6e5ede.png" alt="">
 </details>
 
-## File System View
-* A Godot tool similar to FileSystem dock, allows you to customize filters(views) to work with project resources.
-* Author: @zaevi
-* ![Download](https://github.com/zaevi/godot-filesystem-view)
-* <details>
-    <summary>Screenshot</summary>
-    <img src="https://user-images.githubusercontent.com/12966814/90251893-1f898b80-de71-11ea-9a03-49f3c1dce84f.gif" alt="">
-</details>
+## Firebase
+* A Google Firebase SDK written in GDScript for use in Godot Engine projects.
+* Author: @GodotNuts
+* ![Download](https://github.com/GodotNuts/GodotFirebase)
 
-## Github Integration
-* A complete GitHub integration for your Godot Editor! Manage your project without even opening your browser.
-* Author: @fenix-hub
-* ![Download](https://github.com/fenix-hub/godot-engine.github-integration)
+## GDScript to CSharp
+* Convert GDScript classes to C#. A one click solution that may save you hundreds of hours.
+* Author: @kiriri
+* ![Download](https://github.com/kiriri/gd2cs.py)
 * <details>
     <summary>Screenshot</summary>
-    <img src="https://raw.githubusercontent.com/fenix-hub/godot-engine.github-integration/master/addons/github-integration/screenshots/singin.png" alt="">
+    <img src="https://raw.githubusercontent.com/kiriri/gd2cs.py/main/.assets/showcase_2.png" alt="">
 </details>
 
 ## Global Illumination 2D
@@ -144,13 +162,34 @@ List of plugins that you need in almost any project you make to turn godot into 
     <img src="https://pbs.twimg.com/media/ETcxE5KWkAI2EHj?format=png&name=medium" alt="">
 </details>
 
-## KiriSplat / WIP
-* KiriSplat is a decals system for Godot
-* Author: @ExpiredPopsicle
-* ![Download](https://github.com/ExpiredPopsicle/KiriSplat)
+## Level of Detail (LOD)
+* This add-on provides level of detail for meshes, lights and particles. It can be used to improve performance in large scenes significantly.
+* Author: @Calinou
+* ![Explore](https://github.com/godot-extended-libraries/godot-lod)
 * <details>
     <summary>Screenshot</summary>
-    <img src="https://pbs.twimg.com/media/ETFS4NiVAAUuvcs?format=jpg&name=large" alt="">
+    <img src="https://raw.githubusercontent.com/Calinou/media/master/godot-lod-demo/screenshot.png" alt="">
+</details>
+
+## Localization Editor
+* This is a Godot Editor plugin to manage localization data. The plugin allows you to quickly and easily edit translations in csv format. You can also auto translate your text (build in Google Translator) Remaps are also supported. Resources are assigned very easily using drag and drop. The assigned resources can be viewed in preview window, to check them. Inputs are also checked for errors. The wrong entries are highlighted in color.
+* Author: @VP-GAMES
+* ![Explore](https://github.com/VP-GAMES/LocalizationEditor)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://raw.githubusercontent.com/VP-GAMES/LocalizationEditor/main/.github/images/remaps.png" alt="">
+</details>
+
+## Mesh Batcher
+A tool for batching MeshInstance nodes into a single MultiMeshInstance.
+  - Provides a new MeshBatcher node for easy implimentation. Simply used the node as a container for MeshInstances.
+  - Place and edit individual MeshInstances for granular control.
+  - Detects StaticBodies allowing for collisions with a MultiMeshInstance.
+* Author: @OrigamiDev-Pete
+* ![Explore](https://github.com/OrigamiDev-Pete/MeshBatcher)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://imgur.com/coxZo93.png" alt="">
 </details>
 
 ## Modifiers
@@ -162,6 +201,15 @@ List of plugins that you need in almost any project you make to turn godot into 
     <img src="https://i.imgur.com/Rm9fqIk.gif" alt="">
 </details>
 
+## Native Integration
+* Make C++ scripts without any external configuration, just plug,make your code, and you're done!
+* Author: @NonUnknown
+* ![Download](https://github.com/nonunknown/godot-native-integration)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://camo.githubusercontent.com/450aec1ae358e7487239022e2359f54431ae1853998b634e4c6f499ae0697eca/68747470733a2f2f692e696d6775722e636f6d2f4264357078624b2e706e67" alt="">
+</details>
+
 ## Node Connector
 * Plugin for the Godot editor that provides a convenient way to connect a bunch of UI elements to a script.
 * Author: @Rybadour
@@ -169,29 +217,6 @@ List of plugins that you need in almost any project you make to turn godot into 
 * <details>
     <summary>Screenshot</summary>
     <img src="https://raw.githubusercontent.com/Rybadour/NodeConnectorGodot/master/demo.gif" alt="">
-</details>
-
-## Quick Plugin Manager
-* Faster plugin management without going deep into Godot's plugin settings. 
-* Author: @mastermarkus
-* ![Download](https://github.com/mastermarkus/QuickPluginManager)
-
-## Runtime Console
-* In-Game console to Godot 3.0+ for debugging purposes
-* Author: @coelhucas
-* ![Download](https://github.com/coelhucas/Godot-Runtime-Console)
-* <details>
-    <summary>Screenshot</summary>
-    <img src="https://camo.githubusercontent.com/05b7a78d9c97d522f5ca463c2f11e20bd8812773/68747470733a2f2f692e696d6775722e636f6d2f586b38315a36372e706e67" alt="">
-</details>
-
-## Screen Debugger
-* This is a plugin which enables the user to show their variables in-game. You can see the variables changing on-screen instead of printing them into console...
-* Author: @nonunknown
-* ![Download](https://github.com/nonunknown/screen-debugger)
-* <details>
-    <summary>Screenshot</summary>
-    <img src="https://i.imgur.com/8Uu2bvf.png" alt="">
 </details>
 
 ## Smart Audio Stream
@@ -237,15 +262,6 @@ It also gives you a better control over the Background Music. The sounds will no
 * Author: @MikeMnD
 * ![Download](https://github.com/MikeMnD/tiled-to-godot-export)
 
-## TODO
-* This is a TODO list dock for the Godot 3 game engine
-* Author: @need12648430
-* ![Download](https://github.com/need12648430/godot3-todo)
-* <details>
-    <summary>Screenshot</summary>
-    <img src="https://i.imgur.com/sSm03Zg.gif" alt="">
-</details>
-
 ## Trail System
 * Godot Trail System is an advanced trail/ribbon plugin for the Godot Engine similar to Unity3D's system. The plugin offers full features in 3D and basic 2D functionality (it will be updated later).
 * Author: @OBKF
@@ -272,6 +288,20 @@ It also gives you a better control over the Background Music. The sounds will no
     <summary>Screenshot</summary>
     <img src="https://media.discordapp.net/attachments/218361207990648832/701432991343444018/ezgif-7-5e99cc5fcfb7.gif?width=716&height=403" alt="">
 </details>
+
+## Wheater 2D
+* An easy to use 2D Weather for Godot games including wind, rain, snow and some scene darkening...
+* Author: @parachutino
+* ![Explore](https://github.com/parachutino/godot-weather-2D)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://raw.githubusercontent.com/parachutino/godot-weather-2D/main/screenshots/GodotWeather2D.png" alt="">
+</details>
+
+
+
+
+
 
 # == Language Support ==
 
@@ -317,18 +347,14 @@ It also gives you a better control over the Background Music. The sounds will no
 * Author: @godot-rust
 * ![Download](https://github.com/godot-rust/godot-rust)
 
+
+
+
+
+
 # == External tools ==
 These are tools made with godot, some can run inside the engine itself, others not, but still improves the engine.
 Since they are "externals" they were not included inside the plugin selector inside the engine
-
-## Hitbox Editor
-* Dedicated tool for handling collision boxes accordingly with our animation frames and give us a output to be used later in-game. It's mainly focused to be used with Godot Engine at the moment. 
-* Author: @coelhucas
-* ![Download](https://github.com/coelhucas/hitbox-editor)
-* <details>
-    <summary>Screenshot</summary>
-    <img src="https://raw.githubusercontent.com/coelhucas/hitbox-editor/master/Screenshots/Screen%20Shot%202019-11-25%20at%2012.53.29.png" alt="">
-</details>
 
 ## Material Maker
 * This is a tool based on Godot Engine that can be used to create textures procedurally. 
@@ -338,6 +364,83 @@ Since they are "externals" they were not included inside the plugin selector ins
     <summary>Screenshot</summary>
     <img src="https://raw.githubusercontent.com/RodZill4/material-maker/master/material_maker/doc/images/screenshot.png" alt="">
 </details>
+
+
+
+
+
+
+# == Organization Plugins ==
+
+## Code Snippet Plugin
+* This plugin for Godot 3.2.X adds a popup which lists all available code snippets. The popup is shown with Control+Tab.
+* Author: @Leleat
+* ![Download](https://github.com/Leleat/AGodotCodeSnippetPlugin)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://raw.githubusercontent.com/Leleat/AGodotCodeSnippetPlugin/master/preview.png" alt="">
+</details>
+
+## Command Pallete
+* A Godot addon inspired by CtrlP, making it faster and easier to open the resource you're looking for in the editor.
+* Author: @IvanFon
+* ![Download](https://github.com/IvanFon/godot-command-palette)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://user-images.githubusercontent.com/1174413/61975708-68a63d80-afd9-11e9-8ab9-c6f1ec946cf2.png" alt="">
+</details>
+
+## File System View
+* A Godot tool similar to FileSystem dock, allows you to customize filters(views) to work with project resources.
+* Author: @zaevi
+* ![Download](https://github.com/zaevi/godot-filesystem-view)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://user-images.githubusercontent.com/12966814/90251893-1f898b80-de71-11ea-9a03-49f3c1dce84f.gif" alt="">
+</details>
+
+## Folder Node
+* Allows to create folder nodes in the tree view. Folder nodes don't have a purpose other than organising your nodes.
+    Usage: Select the nodes you want, right click and select "Reparent to new node", now your nodes are in a folder.
+* Author: @JulienVanelian
+* ![Explore](https://github.com/JulienVanelian/godot-folder-node)
+
+## Github Integration
+* A complete GitHub integration for your Godot Editor! Manage your project without even opening your browser.
+* Author: @fenix-hub
+* ![Download](https://github.com/fenix-hub/godot-engine.github-integration)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://raw.githubusercontent.com/fenix-hub/godot-engine.github-integration/master/addons/github-integration/screenshots/singin.png" alt="">
+</details>
+
+## Project Map
+* This addon lets you create a "map" of your project to get a better overview and to quickly access your most-used files.
+* Author: @Yogoda
+* ![Explore](https://github.com/Yogoda/Project-Map)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://raw.githubusercontent.com/Yogoda/Project-Map/main/screenshots/project_view.png" alt="">
+</details>
+
+## Quick Plugin Manager
+* Faster plugin management without going deep into Godot's plugin settings. 
+* Author: @mastermarkus
+* ![Download](https://github.com/mastermarkus/QuickPluginManager)
+
+## TODO - UPDATED
+* A plugin to view TODOs and other tags created in code similar to those found in popular IDEs.
+    // Now with C# Support! //
+* Author: @OrigamiDev-Pete
+* ![Explore](https://github.com/OrigamiDev-Pete/TODO_Manager)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://i.imgur.com/529UnVC.png" alt="">
+</details>
+
+
+
+
 
 # == Honor Mentions ==
 Mentions to other repos, like godot-powerful, maybe there you can find something more specific to your project.
