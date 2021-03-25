@@ -50,8 +50,8 @@ A list of plugins that you need in almost any project you make to turn godot int
     - HitBox Editor
 
 ***
+# == Plugins ==
 
-# Plugins
 
 ## 3D Text (Label3D)
 * Hello! This is an addon built for Godot 3.1.x that adds 3D labels to your arsenal of nodes. It's just like a regular label, but in 3D! The addon simply adds a new node called Label3D that you can add anywhere in your 3D environment.
@@ -304,7 +304,7 @@ It also gives you a better control over the Background Music. The sounds will no
 
 
 ***
-# Language Support
+# == Language Support ==
 
 ## C++ Helper
 * Plugin to help with some of the more tedious aspects of developing with GDNative C++.
@@ -353,7 +353,7 @@ It also gives you a better control over the Background Music. The sounds will no
 
 
 ***
-# External tools
+# == External tools ==
 These are tools made with godot, some can run inside the engine itself, others not, but still improves the engine.
 Since they are "externals" they were not included inside the plugin selector inside the engine
 
@@ -371,7 +371,7 @@ Since they are "externals" they were not included inside the plugin selector ins
 
 
 ***
-# Organization Plugins
+# == Organization Plugins ==
 
 ## Code Snippet Plugin
 * This plugin for Godot 3.2.X adds a popup which lists all available code snippets. The popup is shown with Control+Tab.
@@ -443,7 +443,7 @@ Since they are "externals" they were not included inside the plugin selector ins
 
 
 ***
-# Honorable Mentions
+# == Honorable Mentions ==
 Mentions to other repos, like godot-powerful. Maybe you can find something more specific to your project in one of these.
 
 ## Awesome Godot
