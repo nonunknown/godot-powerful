@@ -2,7 +2,6 @@
 
 ![Power](https://i.imgur.com/T6zzGET.png)
 
-
 ## Motivate-me =D
 You can motivate me continue this and a lot of other projects to improve godot-engine, and help a lot of people making their dreams come true:
 
