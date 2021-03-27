@@ -8,8 +8,8 @@ You can motivate me continue this and a lot of other projects to improve godot-e
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A0A21UUHC)
 
 
-## What this is?
-List of plugins that you need in almost any project you make to turn godot into a most powerful engine that already is. 
+## What this is
+A list of plugins that you need in almost any project you make to turn godot into a more powerful engine than it already is. 
 
 
 ## What's new?
@@ -50,8 +50,9 @@ List of plugins that you need in almost any project you make to turn godot into 
 * Removed from External Tools:
     - HitBox Editor
 
-
+***
 # == Plugins ==
+
 
 ## 3D Text (Label3D)
 * Hello! This is an addon built for Godot 3.1.x that adds 3D labels to your arsenal of nodes. It's just like a regular label, but in 3D! The addon simply adds a new node called Label3D that you can add anywhere in your 3D environment.
@@ -303,7 +304,7 @@ It also gives you a better control over the Background Music. The sounds will no
 
 
 
-
+***
 # == Language Support ==
 
 ## C++ Helper
@@ -352,7 +353,7 @@ It also gives you a better control over the Background Music. The sounds will no
 
 
 
-
+***
 # == External tools ==
 These are tools made with godot, some can run inside the engine itself, others not, but still improves the engine.
 Since they are "externals" they were not included inside the plugin selector inside the engine
@@ -370,7 +371,7 @@ Since they are "externals" they were not included inside the plugin selector ins
 
 
 
-
+***
 # == Organization Plugins ==
 
 ## Code Snippet Plugin
@@ -442,9 +443,9 @@ Since they are "externals" they were not included inside the plugin selector ins
 
 
 
-
-# == Honor Mentions ==
-Mentions to other repos, like godot-powerful, maybe there you can find something more specific to your project.
+***
+# == Honorable Mentions ==
+Mentions to other repos, like godot-powerful. Maybe you can find something more specific to your project in one of these.
 
 ## Awesome Godot
 * A curated list of free/libre games, plugins, add-ons and scripts for Godot.
