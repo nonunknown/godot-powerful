@@ -200,7 +200,7 @@ The definition of JSON Schemas inspired this plugin. However, instead of using a
 ## Macros for GDScript
 * Generate GDScript quickly by typing brief words or letters.
 * Author: @rainlizard
-* [<img src="https://i.imgur.com/IFu6LU7.png" width="100"/>](https://github.com/rainlizard/GDScriptMacrosr)
+* [<img src="https://i.imgur.com/IFu6LU7.png" width="100"/>](https://github.com/rainlizard/GDScriptMacros)
 * <details>
     <summary>Screenshot</summary>
     <img src="https://user-images.githubusercontent.com/15337628/123922810-c0226480-d9cb-11eb-9b99-1b28588055f9.mp4" alt="">
