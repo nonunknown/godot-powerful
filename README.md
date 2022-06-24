@@ -130,7 +130,7 @@ less often, since people will also migrate to 4.x! Thanks to everyone who suppor
 * [<img src="https://i.imgur.com/IFu6LU7.png" width="100"/>](https://github.com/nobuyukinyuu/Godot-EasyBlend)
 * <details>
     <summary>Screenshot</summary>
-    <img src="https://user-images.githubusercontent.com/1023003/40279962-da913c82-5c11-11e8-8a89-380Gofd6e5ede.png" alt="">
+    <img src="https://user-images.githubusercontent.com/1023003/40279962-da913c82-5c11-11e8-8a89-3802dd6e5ede.png" alt="">
 </details>
 
 ## Firebase
