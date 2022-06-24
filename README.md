@@ -74,6 +74,15 @@ less often, since people will also migrate to 4.x! Thanks to everyone who suppor
     <img src="https://raw.githubusercontent.com/NoodleSushi/AudioEffectInspector_GodotAddon/master/README%20Content/AudioEffectReverb.gif" alt="">
 </details>
 
+## Aseprite Wizard
+* Godot plugin to help import Aseprite animations to AnimationPlayers, AnimatedSprites and SpriteFrames.
+* Author: @viniciusgerevini
+* [<img src="https://i.imgur.com/IFu6LU7.png" width="100"/>](https://github.com/viniciusgerevini/godot-aseprite-wizard)
+* <details>
+    <summary>Screenshot</summary>
+    <img src="https://github.com/viniciusgerevini/godot-aseprite-wizard/raw/master/screenshots/animation_dock.gif" alt="">
+</details>
+ 
 ## Batch Collisions
 * A plugin that automates the process of adding and updating collision shapes to meshes. Select one or more nodes and press F11 to add convex collision shapes or F12 to add concave ones.
 * Author: @DiV4
