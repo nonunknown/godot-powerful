@@ -167,6 +167,16 @@ less often, since people will also migrate to 4.x! Thanks to everyone who suppor
 * Author: @MightyPrinny
 * [<img src="https://i.imgur.com/IFu6LU7.png" width="100"/>](https://github.com/MightyPrinny/godot-gputilemap)
 
+## Importality
+* Importality - is an add-on for Godot 4.x for importing graphics and animations from popular formats: Aseprite, Krita, Pencil2D, Piskel and Pixelorama right from source files to ready-to-use Godot resources. Also it can import any other graphics files as regular images with external command line utilities like ImageMagick.
+* Author: @nklbdev
+* [<img src="https://i.imgur.com/IFu6LU7.png" width="100"/>](https://github.com/nklbdev/godot-4-importality)
+* <details>
+    <summary>Screenshot</summary>
+    <img alt="Krita import example" src="https://github.com/nklbdev/godot-4-importality/assets/7024016/16226455-eeb2-4e1e-ac65-c8bd231f0e20" />
+</details>
+
+
 ## Inspector Gadget
 * Inspector gadget is a set of GDScript UI controls designed to read and write object properties at runtime. It extends the standard get_indexed() function from the Node
 * Author: @Shifty
